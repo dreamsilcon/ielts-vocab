@@ -21,7 +21,8 @@ ielts-vocab/
    python3 scripts/extract_from_docx.py          # 默认第 01 章
    python3 scripts/extract_from_docx.py "" 02  # 第 02 章
    ```
-2. 在 Cursor 中说：**「用 notes/ch02.md 写第 2 章记忆故事」**
+2. 在 Cursor 中说：**「用 notes/ch02.md 写第 2 章记忆故事」**  
+   故事格式：**全英文**，重点词用 `<b>word</b> /音标/`（不用 `**`）
 3. 生成网页：
    ```bash
    python3 scripts/build_pages.py 01
