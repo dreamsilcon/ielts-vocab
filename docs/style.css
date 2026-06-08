@@ -1,0 +1,190 @@
+:root {
+  --bg: #0f1419;
+  --surface: #1a2332;
+  --text: #e8eaed;
+  --muted: #9aa0a6;
+  --accent: #6ab7ff;
+  --accent-dim: #3d5a80;
+  --word-bg: #2d4a3e;
+  --word-fg: #a8e6cf;
+  --ready: #4caf50;
+  --pending: #555;
+  --radius: 12px;
+  --font: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --mono: "JetBrains Mono", "Fira Code", monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  min-height: 100vh;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1a2332 0%, #0d2137 50%, #1a2f1a 100%);
+  padding: 3rem 1.5rem 2.5rem;
+  text-align: center;
+  border-bottom: 1px solid var(--accent-dim);
+}
+
+.hero h1 {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.subtitle { color: var(--muted); margin-top: 0.5rem; font-size: 1rem; }
+
+.container { max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+
+.intro {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--accent);
+}
+
+.chapters h2 { font-size: 1.1rem; color: var(--muted); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.08em; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid transparent;
+  transition: border-color 0.2s, transform 0.15s;
+}
+
+.card.ready:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.card.pending {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.card .num {
+  font-family: var(--mono);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.card .title { font-weight: 600; }
+.card .meta { font-size: 0.85rem; color: var(--muted); }
+
+.card.ready .num::after {
+  content: " ✓";
+  font-size: 0.9rem;
+  color: var(--ready);
+}
+
+/* Story page */
+.nav-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--accent);
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.nav-back:hover { text-decoration: underline; }
+
+.story-header { margin-bottom: 2rem; }
+.story-header h1 { font-size: 1.75rem; margin-bottom: 0.5rem; }
+.story-header .tag { color: var(--muted); font-size: 0.9rem; }
+
+.story-body {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 1.75rem 1.5rem;
+}
+
+.story-body h2 {
+  font-size: 1.15rem;
+  color: var(--accent);
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--accent-dim);
+}
+
+.story-body h2:first-child { margin-top: 0; }
+
+.story-body p { margin-bottom: 1rem; text-align: justify; }
+
+.story-body .word {
+  background: var(--word-bg);
+  color: var(--word-fg);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-weight: 600;
+  font-family: var(--mono);
+  font-size: 0.92em;
+}
+
+.story-body .meaning {
+  color: var(--muted);
+  font-size: 0.88em;
+}
+
+.groups {
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+.groups table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.groups th, .groups td {
+  border: 1px solid var(--accent-dim);
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+}
+
+.groups th { background: var(--accent-dim); color: var(--text); }
+
+.coverage {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: rgba(76, 175, 80, 0.12);
+  border-radius: var(--radius);
+  border: 1px solid var(--ready);
+  color: var(--word-fg);
+  font-size: 0.95rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--accent-dim);
+}
+
+footer a { color: var(--accent); }
+
+@media (max-width: 600px) {
+  .story-body { padding: 1.25rem 1rem; }
+}
