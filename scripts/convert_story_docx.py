@@ -106,7 +106,7 @@ def convert(ch: int, docx_path: Path | None = None) -> Path:
     lines = [
         f"# Chapter {chs} · Memory Story",
         "",
-        "> Leo's Tropical Academy — from GPT story",
+        "> From GPT story (分章节整理 docx)",
         "",
         "---",
         "",
