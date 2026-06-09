@@ -1,0 +1,252 @@
+[
+  {
+    "word": "iterative",
+    "pos": "",
+    "meaning": "迭代的;重复的，反复的"
+  },
+  {
+    "word": "cardiovascular",
+    "pos": "",
+    "meaning": "心血管的"
+  },
+  {
+    "word": "canyon",
+    "pos": "",
+    "meaning": "峡谷"
+  },
+  {
+    "word": "critical",
+    "pos": "",
+    "meaning": "重要的，决定性的;批评的;评论的"
+  },
+  {
+    "word": "important",
+    "pos": "adj.",
+    "meaning": "重要的"
+  },
+  {
+    "word": "crucial",
+    "pos": "adj.",
+    "meaning": "重要的，关键的"
+  },
+  {
+    "word": "appreciation",
+    "pos": "n.",
+    "meaning": "欣赏;感激;理解"
+  },
+  {
+    "word": "constrain",
+    "pos": "",
+    "meaning": "强迫，迫使;限定，约束"
+  },
+  {
+    "word": "constraint",
+    "pos": "n.",
+    "meaning": "约束;限制"
+  },
+  {
+    "word": "strain",
+    "pos": "n.",
+    "meaning": "拉力;压力v"
+  },
+  {
+    "word": "pesticide",
+    "pos": "",
+    "meaning": "杀虫剂，农药 //pest=害虫，cide=kill。sui是拉丁语前缀=oneself，所以sui"
+  },
+  {
+    "word": "taxonomy",
+    "pos": "",
+    "meaning": "分类学;分类法，生物分类学"
+  },
+  {
+    "word": "despise",
+    "pos": "",
+    "meaning": "轻视，鄙视"
+  },
+  {
+    "word": "dreadful",
+    "pos": "",
+    "meaning": "糟糕的，讨厌的;极端的;可怕的"
+  },
+  {
+    "word": "probe",
+    "pos": "",
+    "meaning": "调查;探查;搜寻n"
+  },
+  {
+    "word": "geographic",
+    "pos": "adj.",
+    "meaning": "地理的;地理学的"
+  },
+  {
+    "word": "resort",
+    "pos": "",
+    "meaning": "求助于，诉诸n"
+  },
+  {
+    "word": "climax",
+    "pos": "",
+    "meaning": "高潮;顶点;极点"
+  },
+  {
+    "word": "apparatus",
+    "pos": "",
+    "meaning": "装置，设备;仪器"
+  },
+  {
+    "word": "mortal",
+    "pos": "",
+    "meaning": "致死的;终将死亡的"
+  },
+  {
+    "word": "code",
+    "pos": "n.",
+    "meaning": "代码;密码;编码v"
+  },
+  {
+    "word": "comprehensive",
+    "pos": "",
+    "meaning": "综合的，全面的; 有理解力的"
+  },
+  {
+    "word": "artistry",
+    "pos": "",
+    "meaning": "艺术性;艺术技巧"
+  },
+  {
+    "word": "artist",
+    "pos": "n.",
+    "meaning": "艺术家"
+  },
+  {
+    "word": "artistic",
+    "pos": "",
+    "meaning": "艺术的;有美感的"
+  },
+  {
+    "word": "artisan",
+    "pos": "",
+    "meaning": "工匠 注意区分工匠和艺术家"
+  },
+  {
+    "word": "deposit",
+    "pos": "",
+    "meaning": "存款;押金;沉淀物v沉淀;存款;付押金"
+  },
+  {
+    "word": "locate",
+    "pos": "",
+    "meaning": "位于;确定"
+  },
+  {
+    "word": "location",
+    "pos": "n.",
+    "meaning": "位置，地点"
+  },
+  {
+    "word": "spectacle",
+    "pos": "",
+    "meaning": "精彩的表演;壮观的景象;[p1"
+  },
+  {
+    "word": "compile",
+    "pos": "",
+    "meaning": "编译;编制;汇编"
+  },
+  {
+    "word": "evaluate",
+    "pos": "",
+    "meaning": "估计;评价;评估"
+  },
+  {
+    "word": "evaluation",
+    "pos": "n.",
+    "meaning": "评价;评估"
+  },
+  {
+    "word": "deflation",
+    "pos": "n.",
+    "meaning": "通货紧缩"
+  },
+  {
+    "word": "moist",
+    "pos": "",
+    "meaning": "潮湿的;湿润的"
+  },
+  {
+    "word": "philosophy",
+    "pos": "n.",
+    "meaning": "哲学;哲理;生活的信条"
+  },
+  {
+    "word": "philosopher",
+    "pos": "n.",
+    "meaning": "哲学家"
+  },
+  {
+    "word": "literacy",
+    "pos": "",
+    "meaning": "读写能力"
+  },
+  {
+    "word": "literate",
+    "pos": "adj.",
+    "meaning": "有读写能力的;有学问的"
+  },
+  {
+    "word": "illiterate",
+    "pos": "adj.",
+    "meaning": "不识字的;文盲的"
+  },
+  {
+    "word": "discriminate",
+    "pos": "",
+    "meaning": "歧视;区别;辨别"
+  },
+  {
+    "word": "discrimination",
+    "pos": "n.",
+    "meaning": "歧视"
+  },
+  {
+    "word": "circulate",
+    "pos": "v.",
+    "meaning": "循环;散发，传播"
+  },
+  {
+    "word": "quantity",
+    "pos": "",
+    "meaning": "量，数量"
+  },
+  {
+    "word": "mutually",
+    "pos": "adv.",
+    "meaning": "相互地;共同地"
+  },
+  {
+    "word": "sustain",
+    "pos": "",
+    "meaning": "维持;使稳定持续;支撑;供养"
+  },
+  {
+    "word": "maintain",
+    "pos": "v.",
+    "meaning": "维持"
+  },
+  {
+    "word": "sustainable",
+    "pos": "adj.",
+    "meaning": "可持续的"
+  },
+  {
+    "word": "replicate",
+    "pos": "",
+    "meaning": "复制;再生，自我复制"
+  },
+  {
+    "word": "replication",
+    "pos": "n.",
+    "meaning": "复制；折叠"
+  }
+]

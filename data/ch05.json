@@ -1,0 +1,392 @@
+[
+  {
+    "word": "miserable",
+    "pos": "",
+    "meaning": "悲惨的；痛苦的；可怜的"
+  },
+  {
+    "word": "misery",
+    "pos": "",
+    "meaning": "痛苦;不幸"
+  },
+  {
+    "word": "embed",
+    "pos": "",
+    "meaning": "嵌入；插入；内置"
+  },
+  {
+    "word": "embedded",
+    "pos": "adj.",
+    "meaning": "嵌入"
+  },
+  {
+    "word": "tag",
+    "pos": "n.",
+    "meaning": "标签 v"
+  },
+  {
+    "word": "extinct",
+    "pos": "adj.",
+    "meaning": "灭绝的; 已消亡的"
+  },
+  {
+    "word": "extinction",
+    "pos": "n.",
+    "meaning": "灭绝"
+  },
+  {
+    "word": "assignment",
+    "pos": "n.",
+    "meaning": "分配;任务;作业"
+  },
+  {
+    "word": "meadow",
+    "pos": "n.",
+    "meaning": "草地，牧场"
+  },
+  {
+    "word": "talent",
+    "pos": "n.",
+    "meaning": "才能，天才，天资"
+  },
+  {
+    "word": "trivial",
+    "pos": "",
+    "meaning": "琐碎的;不重要的"
+  },
+  {
+    "word": "hectare",
+    "pos": "n.",
+    "meaning": "公顷"
+  },
+  {
+    "word": "invest",
+    "pos": "v.",
+    "meaning": "投资;投入;授予"
+  },
+  {
+    "word": "investment",
+    "pos": "n.",
+    "meaning": "投资;投入"
+  },
+  {
+    "word": "versatile",
+    "pos": "adj.",
+    "meaning": "多才多艺的；通用的，万能的。Ver=转，转到哪个方向"
+  },
+  {
+    "word": "verse",
+    "pos": "n.",
+    "meaning": "诗歌"
+  },
+  {
+    "word": "universal",
+    "pos": "adj.",
+    "meaning": "普遍的;一般的 有时候会和general替换"
+  },
+  {
+    "word": "demolish",
+    "pos": "v.",
+    "meaning": "拆除;破坏"
+  },
+  {
+    "word": "endorse",
+    "pos": "v.",
+    "meaning": "背书;认可，赞同"
+  },
+  {
+    "word": "endorsement",
+    "pos": "n.",
+    "meaning": "背书;认可"
+  },
+  {
+    "word": "calibrate",
+    "pos": "v.",
+    "meaning": "校准，精确测量"
+  },
+  {
+    "word": "calibration",
+    "pos": "n.",
+    "meaning": "校准"
+  },
+  {
+    "word": "conceive",
+    "pos": "v.",
+    "meaning": "构思；设想；怀孕"
+  },
+  {
+    "word": "receive",
+    "pos": "v.",
+    "meaning": "接收"
+  },
+  {
+    "word": "elect",
+    "pos": "v.",
+    "meaning": "选举;选择"
+  },
+  {
+    "word": "election",
+    "pos": "n.",
+    "meaning": "选举;选择"
+  },
+  {
+    "word": "affluent",
+    "pos": "adj.",
+    "meaning": "富裕的;丰富的 =rich"
+  },
+  {
+    "word": "prosperous",
+    "pos": "adj.",
+    "meaning": "繁荣的，兴旺的，这个词来自于prosper动词，"
+  },
+  {
+    "word": "wealthy",
+    "pos": "adj.",
+    "meaning": "富有的"
+  },
+  {
+    "word": "invoice",
+    "pos": "n.",
+    "meaning": "发票，账单"
+  },
+  {
+    "word": "weed",
+    "pos": "n.",
+    "meaning": "野草，杂草"
+  },
+  {
+    "word": "integrate",
+    "pos": "v.",
+    "meaning": "整合，合并"
+  },
+  {
+    "word": "integration",
+    "pos": "n.",
+    "meaning": "整合，合并"
+  },
+  {
+    "word": "integrated",
+    "pos": "adj.",
+    "meaning": "完整的"
+  },
+  {
+    "word": "browse",
+    "pos": "v.",
+    "meaning": "浏览，翻阅"
+  },
+  {
+    "word": "illuminate",
+    "pos": "v.",
+    "meaning": "阐明，说明；照亮"
+  },
+  {
+    "word": "illumination",
+    "pos": "n.",
+    "meaning": "阐明，说明;照亮"
+  },
+  {
+    "word": "accounting",
+    "pos": "n.",
+    "meaning": "会计学"
+  },
+  {
+    "word": "finance",
+    "pos": "n.",
+    "meaning": "金融学"
+  },
+  {
+    "word": "engineering",
+    "pos": "n.",
+    "meaning": "工程学"
+  },
+  {
+    "word": "anthropology",
+    "pos": "n.",
+    "meaning": "人类学"
+  },
+  {
+    "word": "psychology",
+    "pos": "n.",
+    "meaning": "心理学"
+  },
+  {
+    "word": "physiology",
+    "pos": "n.",
+    "meaning": "生理学"
+  },
+  {
+    "word": "marketing",
+    "pos": "n.",
+    "meaning": "市场营销"
+  },
+  {
+    "word": "statistics",
+    "pos": "n.",
+    "meaning": "统计学"
+  },
+  {
+    "word": "prevail",
+    "pos": "v.",
+    "meaning": "流行;普遍存在;战胜"
+  },
+  {
+    "word": "prevailing",
+    "pos": "adj.",
+    "meaning": "普遍的;流行的 ，形容词相当于popular 也=wide spread"
+  },
+  {
+    "word": "inborn",
+    "pos": "adj.",
+    "meaning": "天生的。innate是他的同义词，天生的，固有的"
+  },
+  {
+    "word": "arable",
+    "pos": "adj.",
+    "meaning": "可耕种的;耕作的"
+  },
+  {
+    "word": "spoil",
+    "pos": "v.",
+    "meaning": "溺爱；破坏，糟蹋"
+  },
+  {
+    "word": "luxury",
+    "pos": "n.",
+    "meaning": "奢侈;奢侈品 adj"
+  },
+  {
+    "word": "luxurious",
+    "pos": "adj.",
+    "meaning": "奢侈的 y变成i再加ous就变成了形容词"
+  },
+  {
+    "word": "split",
+    "pos": "v.",
+    "meaning": ""
+  },
+  {
+    "word": "discipline",
+    "pos": "n.",
+    "meaning": "学科;纪律;训练"
+  },
+  {
+    "word": "intact",
+    "pos": "adj.",
+    "meaning": "完整的;未受损伤的"
+  },
+  {
+    "word": "undamaged",
+    "pos": "adj.",
+    "meaning": "未受损伤的，基本和intact是同义词"
+  },
+  {
+    "word": "pervasive",
+    "pos": "adj.",
+    "meaning": "遍布的，无处不在的 =wide spread"
+  },
+  {
+    "word": "pervasively",
+    "pos": "adv.",
+    "meaning": "广泛地"
+  },
+  {
+    "word": "fabric",
+    "pos": "n.",
+    "meaning": "织物，布料;结构，构造"
+  },
+  {
+    "word": "spontaneous",
+    "pos": "",
+    "meaning": "自发的;自然的"
+  },
+  {
+    "word": "spontaneously",
+    "pos": "adv.",
+    "meaning": "自发地;自然地"
+  },
+  {
+    "word": "simultaneous",
+    "pos": "adj.",
+    "meaning": "同时的 这两个词的词根都是taneous"
+  },
+  {
+    "word": "aggravate",
+    "pos": "v.",
+    "meaning": "使严重;使恶化"
+  },
+  {
+    "word": "dubious",
+    "pos": "adj.",
+    "meaning": "可疑的;有疑虑的"
+  },
+  {
+    "word": "steady",
+    "pos": "adj.",
+    "meaning": "稳定的; 不变的"
+  },
+  {
+    "word": "constant",
+    "pos": "adj.",
+    "meaning": "持续的;稳定的"
+  },
+  {
+    "word": "stable",
+    "pos": "adj.",
+    "meaning": "稳定的"
+  },
+  {
+    "word": "character",
+    "pos": "n.",
+    "meaning": "性格，品质；特性；角色"
+  },
+  {
+    "word": "characteristic",
+    "pos": "adj.",
+    "meaning": "独特的，特有的"
+  },
+  {
+    "word": "vein",
+    "pos": "n.",
+    "meaning": "静脉;叶脉;纹理"
+  },
+  {
+    "word": "anticipate",
+    "pos": "v.",
+    "meaning": "预料，预期=expect"
+  },
+  {
+    "word": "deputy",
+    "pos": "",
+    "meaning": "副手，副职；代理人；代表"
+  },
+  {
+    "word": "olfactory",
+    "pos": "",
+    "meaning": "嗅觉的"
+  },
+  {
+    "word": "assimilate",
+    "pos": "v.",
+    "meaning": "同化;吸收"
+  },
+  {
+    "word": "merchant",
+    "pos": "n.",
+    "meaning": "商人;批发商"
+  },
+  {
+    "word": "merchandise",
+    "pos": "v.",
+    "meaning": "买卖，交易，商品，货物 后面的ise表动词"
+  },
+  {
+    "word": "transition",
+    "pos": "n.",
+    "meaning": "过渡；转变；转换"
+  },
+  {
+    "word": "embark",
+    "pos": "v.",
+    "meaning": "上船，上飞机；着手，开始"
+  }
+]

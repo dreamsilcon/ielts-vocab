@@ -1,0 +1,362 @@
+[
+  {
+    "word": "furniture",
+    "pos": "n.",
+    "meaning": "家具"
+  },
+  {
+    "word": "geology",
+    "pos": "n.",
+    "meaning": "地质学;地质状况"
+  },
+  {
+    "word": "geological",
+    "pos": "adj.",
+    "meaning": "地质的"
+  },
+  {
+    "word": "accredit",
+    "pos": "v.",
+    "meaning": "归因于;委派;正式认可"
+  },
+  {
+    "word": "reproduce",
+    "pos": "v.",
+    "meaning": "复制;再生;繁殖"
+  },
+  {
+    "word": "produce",
+    "pos": "v.",
+    "meaning": "生产;产生n"
+  },
+  {
+    "word": "product",
+    "pos": "n.",
+    "meaning": "产品"
+  },
+  {
+    "word": "production",
+    "pos": "n.",
+    "meaning": "生产;产量"
+  },
+  {
+    "word": "productive",
+    "pos": "adj.",
+    "meaning": "富有成效的;多产的"
+  },
+  {
+    "word": "productivity",
+    "pos": "n.",
+    "meaning": "生产率;生产力"
+  },
+  {
+    "word": "criterion",
+    "pos": "",
+    "meaning": "标准;准则;规范"
+  },
+  {
+    "word": "mainspring",
+    "pos": "n.",
+    "meaning": "主要动力;主要原因"
+  },
+  {
+    "word": "condense",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "dense",
+    "pos": "adj.",
+    "meaning": "密集的;浓密的"
+  },
+  {
+    "word": "densely",
+    "pos": "",
+    "meaning": "密集地"
+  },
+  {
+    "word": "density",
+    "pos": "n.",
+    "meaning": "密度"
+  },
+  {
+    "word": "peril",
+    "pos": "n.",
+    "meaning": "极大危险，危难"
+  },
+  {
+    "word": "imperil",
+    "pos": "v.",
+    "meaning": "危及;使陷入危险"
+  },
+  {
+    "word": "quota",
+    "pos": "",
+    "meaning": "定额;限额;配额"
+  },
+  {
+    "word": "transform",
+    "pos": "v.",
+    "meaning": "使改变，使变形，使转化 trans=从一个到另一个，form=形式"
+  },
+  {
+    "word": "transformation",
+    "pos": "n.",
+    "meaning": "变化"
+  },
+  {
+    "word": "discover",
+    "pos": "v.",
+    "meaning": "发现;发觉 dis是否定，cover是盖子，把盖子拿走，就是发现"
+  },
+  {
+    "word": "discovery",
+    "pos": "n.",
+    "meaning": "发现，探索"
+  },
+  {
+    "word": "intermediate",
+    "pos": "",
+    "meaning": "中间的;中级的"
+  },
+  {
+    "word": "opponent",
+    "pos": "",
+    "meaning": "对手;反对者 来自于oppose"
+  },
+  {
+    "word": "hint",
+    "pos": "n.",
+    "meaning": "暗示;线索;建议"
+  },
+  {
+    "word": "sign",
+    "pos": "n.",
+    "meaning": "迹象"
+  },
+  {
+    "word": "suggestion",
+    "pos": "n.",
+    "meaning": "暗示"
+  },
+  {
+    "word": "bypass",
+    "pos": "n.",
+    "meaning": "旁路，支路v"
+  },
+  {
+    "word": "unify",
+    "pos": "v.",
+    "meaning": "联合;统一;使成一体"
+  },
+  {
+    "word": "union",
+    "pos": "n.",
+    "meaning": "联盟;工会"
+  },
+  {
+    "word": "peculiar",
+    "pos": "",
+    "meaning": "特殊的;独特的;奇怪的 /// particular?"
+  },
+  {
+    "word": "navigate",
+    "pos": "v.",
+    "meaning": "导航;航行;找到正确方法 ；平时开车走的这个动作也叫navigate"
+  },
+  {
+    "word": "navigation",
+    "pos": "n.",
+    "meaning": "航行;航海;导航"
+  },
+  {
+    "word": "convey",
+    "pos": "v.",
+    "meaning": "传达，表达;运输，运送"
+  },
+  {
+    "word": "respectively",
+    "pos": "adv.",
+    "meaning": "分别地;各自地   老师说这个在写作的小作文里面经常用"
+  },
+  {
+    "word": "viable",
+    "pos": "",
+    "meaning": "可行的"
+  },
+  {
+    "word": "sufficient",
+    "pos": "adj.",
+    "meaning": "足够的;充分的"
+  },
+  {
+    "word": "insufficient",
+    "pos": "adj.",
+    "meaning": "不足的;不够的"
+  },
+  {
+    "word": "sufficiently",
+    "pos": "adv.",
+    "meaning": "充足地"
+  },
+  {
+    "word": "silicon",
+    "pos": "n.",
+    "meaning": "硅"
+  },
+  {
+    "word": "elastic",
+    "pos": "adj.",
+    "meaning": "有弹性的;灵活的"
+  },
+  {
+    "word": "refresh",
+    "pos": "v.",
+    "meaning": "使恢复精神;翻新;想起"
+  },
+  {
+    "word": "align",
+    "pos": "",
+    "meaning": "v与"
+  },
+  {
+    "word": "eloquently",
+    "pos": "",
+    "meaning": "雄辩地;有口才地;有表现力地"
+  },
+  {
+    "word": "eloquent",
+    "pos": "adj.",
+    "meaning": "雄辩的;有说服力的"
+  },
+  {
+    "word": "distort",
+    "pos": "",
+    "meaning": "扭曲;曲解;变形"
+  },
+  {
+    "word": "liable",
+    "pos": "adj.",
+    "meaning": "有责任的;有义务的"
+  },
+  {
+    "word": "deem",
+    "pos": "v.",
+    "meaning": "认为，相信 老师说他就是think"
+  },
+  {
+    "word": "landmark",
+    "pos": "n.",
+    "meaning": "地标;里程碑;纪念碑"
+  },
+  {
+    "word": "milestone",
+    "pos": "n.",
+    "meaning": "里程碑"
+  },
+  {
+    "word": "monument",
+    "pos": "n.",
+    "meaning": "丰碑:遗址 老师说：这两个是可以同义替换的词"
+  },
+  {
+    "word": "spectrum",
+    "pos": "n.",
+    "meaning": "光谱;频谱;范围"
+  },
+  {
+    "word": "seminar",
+    "pos": "",
+    "meaning": "讨论会，研讨班"
+  },
+  {
+    "word": "label",
+    "pos": "n.",
+    "meaning": "标签;商标，品牌v贴标签于"
+  },
+  {
+    "word": "insomnia",
+    "pos": "",
+    "meaning": "失眠"
+  },
+  {
+    "word": "dwindle",
+    "pos": "",
+    "meaning": "减少;变小 ////老师说约等于decrease or drop ,fall"
+  },
+  {
+    "word": "womb",
+    "pos": "n.",
+    "meaning": "子宫"
+  },
+  {
+    "word": "specification",
+    "pos": "n.",
+    "meaning": "规格;说明书;详述"
+  },
+  {
+    "word": "optimal",
+    "pos": "adj.",
+    "meaning": "最佳的;最理想的"
+  },
+  {
+    "word": "optimistic",
+    "pos": "adj.",
+    "meaning": "乐观的 pessimistic 悲观的"
+  },
+  {
+    "word": "optimum",
+    "pos": "adj.",
+    "meaning": "最适合的"
+  },
+  {
+    "word": "disseminate",
+    "pos": "",
+    "meaning": "传播，散布"
+  },
+  {
+    "word": "distinguishable",
+    "pos": "adj.",
+    "meaning": "有区别的; 可区分的;易辨别的"
+  },
+  {
+    "word": "purchaser",
+    "pos": "n.",
+    "meaning": "购买者"
+  },
+  {
+    "word": "exhibition",
+    "pos": "n.",
+    "meaning": "展览；展览品"
+  },
+  {
+    "word": "interact",
+    "pos": "v.",
+    "meaning": "交流，互动;互相影响，互相作用"
+  },
+  {
+    "word": "interaction",
+    "pos": "n.",
+    "meaning": "互相作用，互相影响"
+  },
+  {
+    "word": "interactive",
+    "pos": "adj.",
+    "meaning": "交互的，相互作用的"
+  },
+  {
+    "word": "configuration",
+    "pos": "n.",
+    "meaning": "配置;布局，构造"
+  },
+  {
+    "word": "configure",
+    "pos": "v.",
+    "meaning": "安装;配置"
+  },
+  {
+    "word": "discrepancy",
+    "pos": "",
+    "meaning": "差异，不符"
+  }
+]

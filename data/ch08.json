@@ -1,0 +1,357 @@
+[
+  {
+    "word": "tortoise",
+    "pos": "",
+    "meaning": "龟；陆龟 //////turtle是海龟"
+  },
+  {
+    "word": "collapse",
+    "pos": "v.",
+    "meaning": "倒塌;倒下;失败n"
+  },
+  {
+    "word": "profile",
+    "pos": "n.",
+    "meaning": "概况;轮廓;外形；公众注意"
+  },
+  {
+    "word": "standard",
+    "pos": "n.",
+    "meaning": "标准；水平 adj"
+  },
+  {
+    "word": "standardize",
+    "pos": "v.",
+    "meaning": "标准化  ize动词后缀"
+  },
+  {
+    "word": "standardized",
+    "pos": "adj.",
+    "meaning": "标准化的"
+  },
+  {
+    "word": "cognition",
+    "pos": "n.",
+    "meaning": "认知;感知;认识能力"
+  },
+  {
+    "word": "cognitive",
+    "pos": "adj.",
+    "meaning": "认知的"
+  },
+  {
+    "word": "warrant",
+    "pos": "n.",
+    "meaning": "证明，依据；许可证v"
+  },
+  {
+    "word": "marginal",
+    "pos": "adj.",
+    "meaning": "边缘的"
+  },
+  {
+    "word": "mercy",
+    "pos": "n.",
+    "meaning": "仁慈；宽容；善行"
+  },
+  {
+    "word": "premier",
+    "pos": "adj.",
+    "meaning": "首要的，最好的；最早的 n"
+  },
+  {
+    "word": "nominate",
+    "pos": "v.",
+    "meaning": "推荐;提名;任命;指定。这个词来自于nom=name"
+  },
+  {
+    "word": "nomination",
+    "pos": "n.",
+    "meaning": "任命；提名"
+  },
+  {
+    "word": "contempt",
+    "pos": "n.",
+    "meaning": "轻视，蔑视；忽视"
+  },
+  {
+    "word": "outdo",
+    "pos": "v.",
+    "meaning": "超过；胜过"
+  },
+  {
+    "word": "suitcase",
+    "pos": "n.",
+    "meaning": "手提箱;衣物箱"
+  },
+  {
+    "word": "reveal",
+    "pos": "v.",
+    "meaning": "揭示;显示;透露 就是show/present的意思"
+  },
+  {
+    "word": "show",
+    "pos": "v.",
+    "meaning": "显示"
+  },
+  {
+    "word": "acoustic",
+    "pos": "adj.",
+    "meaning": "声学的;音响的;听觉的 n"
+  },
+  {
+    "word": "overdraw",
+    "pos": "v.",
+    "meaning": "透支"
+  },
+  {
+    "word": "withdraw",
+    "pos": "v.",
+    "meaning": "撤走;取款"
+  },
+  {
+    "word": "sightseeing",
+    "pos": "n.",
+    "meaning": "观光;游览"
+  },
+  {
+    "word": "automobile",
+    "pos": "",
+    "meaning": "汽车 注意，mobile单独用的时候读：/ˈməʊ"
+  },
+  {
+    "word": "coupon",
+    "pos": "n.",
+    "meaning": "优惠券;订货单"
+  },
+  {
+    "word": "capsule",
+    "pos": "",
+    "meaning": "胶囊;太空舱;小容器，很多小的"
+  },
+  {
+    "word": "abstract",
+    "pos": "adj.",
+    "meaning": "抽象的，重音在第一音节 n"
+  },
+  {
+    "word": "concrete",
+    "pos": "adj.",
+    "meaning": "具体的"
+  },
+  {
+    "word": "consolidation",
+    "pos": "n.",
+    "meaning": "巩固；合并 / solid=坚硬，con=共同"
+  },
+  {
+    "word": "detach",
+    "pos": "v.",
+    "meaning": "拆卸;分离;派遣;超脱"
+  },
+  {
+    "word": "detached",
+    "pos": "adj.",
+    "meaning": "分开的;超然的"
+  },
+  {
+    "word": "attach",
+    "pos": "v.",
+    "meaning": "贴上;系上"
+  },
+  {
+    "word": "trench",
+    "pos": "n.",
+    "meaning": "壕沟，沟渠"
+  },
+  {
+    "word": "entrench",
+    "pos": "v.",
+    "meaning": "使根深蒂固"
+  },
+  {
+    "word": "stretch",
+    "pos": "v.",
+    "meaning": "伸展;延伸;延续n"
+  },
+  {
+    "word": "extend",
+    "pos": "v.",
+    "meaning": "延伸，伸展"
+  },
+  {
+    "word": "defect",
+    "pos": "n.",
+    "meaning": "缺点，缺陷，不足"
+  },
+  {
+    "word": "altitude",
+    "pos": "n.",
+    "meaning": "海拔高度;高地"
+  },
+  {
+    "word": "sole",
+    "pos": "adj.",
+    "meaning": "唯一的；单独的 sol词根表单一"
+  },
+  {
+    "word": "artery",
+    "pos": "",
+    "meaning": "动脉；干线"
+  },
+  {
+    "word": "victim",
+    "pos": "n.",
+    "meaning": "受害人;牺牲者;牺牲品"
+  },
+  {
+    "word": "publicise",
+    "pos": "v.",
+    "meaning": "宣传，宣扬;公布 这个词来自于publish，同样ish做动词的还有vanish消失"
+  },
+  {
+    "word": "occasion",
+    "pos": "n.",
+    "meaning": "注意，他的形容词形式occasional是偶尔临时，但是名词形式是时机；场合"
+  },
+  {
+    "word": "occasional",
+    "pos": "adj.",
+    "meaning": "偶尔的;临时的，这是一个表示频率的词"
+  },
+  {
+    "word": "suspend",
+    "pos": "v.",
+    "meaning": "延缓，推迟;暂停;悬，挂"
+  },
+  {
+    "word": "instance",
+    "pos": "n.",
+    "meaning": "例子，实例"
+  },
+  {
+    "word": "distance",
+    "pos": "n.",
+    "meaning": "距离"
+  },
+  {
+    "word": "distant",
+    "pos": "adj.",
+    "meaning": "遥远的;有距离的"
+  },
+  {
+    "word": "ceremony",
+    "pos": "n.",
+    "meaning": "典礼，仪式"
+  },
+  {
+    "word": "amend",
+    "pos": "v.",
+    "meaning": "修改;改善，改进"
+  },
+  {
+    "word": "territory",
+    "pos": "",
+    "meaning": "领土;领域;范围"
+  },
+  {
+    "word": "enroll",
+    "pos": "v.",
+    "meaning": "登记，注册 en=in进来，rol=转，enroll=转进来"
+  },
+  {
+    "word": "enrolment",
+    "pos": "n.",
+    "meaning": "登记;注册;入学"
+  },
+  {
+    "word": "accelerate",
+    "pos": "v.",
+    "meaning": "加速;促进"
+  },
+  {
+    "word": "decelerate",
+    "pos": "v.",
+    "meaning": "减速"
+  },
+  {
+    "word": "acceleration",
+    "pos": "n.",
+    "meaning": "加速"
+  },
+  {
+    "word": "interrupt",
+    "pos": "v.",
+    "meaning": "中断;打断;打扰"
+  },
+  {
+    "word": "interruption",
+    "pos": "n.",
+    "meaning": "中断;打扰"
+  },
+  {
+    "word": "royal",
+    "pos": "",
+    "meaning": "皇家的，王室的;高贵的n"
+  },
+  {
+    "word": "commemoration",
+    "pos": "n.",
+    "meaning": "纪念;庆典 大家共同来记住某个东西"
+  },
+  {
+    "word": "access",
+    "pos": "n.",
+    "meaning": "入口;进入;使用v"
+  },
+  {
+    "word": "accessible",
+    "pos": "adj.",
+    "meaning": "可获得的;可接近的"
+  },
+  {
+    "word": "seize",
+    "pos": "",
+    "meaning": "抓住;逮捕;攻占，夺取"
+  },
+  {
+    "word": "grab",
+    "pos": "v.",
+    "meaning": "抓住 ，master 也是抓"
+  },
+  {
+    "word": "acute",
+    "pos": "adj.",
+    "meaning": ""
+  },
+  {
+    "word": "opportunity",
+    "pos": "n.",
+    "meaning": "机会;时机"
+  },
+  {
+    "word": "chance",
+    "pos": "n.",
+    "meaning": "机会"
+  },
+  {
+    "word": "dean",
+    "pos": "n.",
+    "meaning": "院长，教务长"
+  },
+  {
+    "word": "approve",
+    "pos": "v.",
+    "meaning": "批准;赞成;赞赏"
+  },
+  {
+    "word": "disapprove",
+    "pos": "v.",
+    "meaning": "不同意"
+  },
+  {
+    "word": "approval",
+    "pos": "n.",
+    "meaning": "同意，赞成"
+  }
+]

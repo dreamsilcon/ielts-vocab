@@ -1,0 +1,287 @@
+[
+  {
+    "word": "dome",
+    "pos": "",
+    "meaning": "穹顶，圆屋顶"
+  },
+  {
+    "word": "skeleton",
+    "pos": "",
+    "meaning": "骨架，骨骼;梗概;框架"
+  },
+  {
+    "word": "remote",
+    "pos": "adj.",
+    "meaning": "遥远的;偏僻的;远程的"
+  },
+  {
+    "word": "marble",
+    "pos": "",
+    "meaning": "大理石;大理石雕像"
+  },
+  {
+    "word": "bias",
+    "pos": "",
+    "meaning": "偏见;偏爱;偏误"
+  },
+  {
+    "word": "locomotive",
+    "pos": "",
+    "meaning": "机车，火车头 adj"
+  },
+  {
+    "word": "cereal",
+    "pos": "",
+    "meaning": "谷类食物;谷类植物"
+  },
+  {
+    "word": "cabin",
+    "pos": "",
+    "meaning": "小木屋;船舱;机舱"
+  },
+  {
+    "word": "haul",
+    "pos": "",
+    "meaning": "v拖，拉，拽;费力前进，艰难地走"
+  },
+  {
+    "word": "spin",
+    "pos": "",
+    "meaning": "/n"
+  },
+  {
+    "word": "effect",
+    "pos": "",
+    "meaning": "影响;效果;作用"
+  },
+  {
+    "word": "effective",
+    "pos": "adj.",
+    "meaning": "有效的"
+  },
+  {
+    "word": "efficient",
+    "pos": "adj.",
+    "meaning": "高效的 注意这2个形容词，一个有效的，一个高效的"
+  },
+  {
+    "word": "effectively",
+    "pos": "adv.",
+    "meaning": "有效地"
+  },
+  {
+    "word": "efficiently",
+    "pos": "adv.",
+    "meaning": "高效地"
+  },
+  {
+    "word": "efficiency",
+    "pos": "n.",
+    "meaning": "效率"
+  },
+  {
+    "word": "synchronise",
+    "pos": "v.",
+    "meaning": "同步;同时发生;校准"
+  },
+  {
+    "word": "asynchronous",
+    "pos": "adj.",
+    "meaning": "/eɪˈsɪŋ"
+  },
+  {
+    "word": "inspire",
+    "pos": "",
+    "meaning": "鼓舞;启示;产生灵感"
+  },
+  {
+    "word": "respire",
+    "pos": "",
+    "meaning": "呼吸"
+  },
+  {
+    "word": "function",
+    "pos": "n.",
+    "meaning": "功能，作用;宴会，典礼v 运转，起作用"
+  },
+  {
+    "word": "substitution",
+    "pos": "n.",
+    "meaning": "替代;替代物"
+  },
+  {
+    "word": "lend",
+    "pos": "",
+    "meaning": "借给，借出;贷款"
+  },
+  {
+    "word": "loan",
+    "pos": "v.",
+    "meaning": "贷款"
+  },
+  {
+    "word": "synthetic",
+    "pos": "adj.",
+    "meaning": "合成的;综合的"
+  },
+  {
+    "word": "insight",
+    "pos": "",
+    "meaning": "洞察力;洞悉"
+  },
+  {
+    "word": "disability",
+    "pos": "",
+    "meaning": "残疾;无能力;无资格"
+  },
+  {
+    "word": "disable",
+    "pos": "v.",
+    "meaning": "使无能力;使残疾"
+  },
+  {
+    "word": "tactic",
+    "pos": "",
+    "meaning": "策略，手法;战术 相当于strategy"
+  },
+  {
+    "word": "attribute",
+    "pos": "v.",
+    "meaning": "/əˈt"
+  },
+  {
+    "word": "imperative",
+    "pos": "",
+    "meaning": "必要的;紧急的 n"
+  },
+  {
+    "word": "exploit",
+    "pos": "",
+    "meaning": "开发，开采;利用;剥削，压榨"
+  },
+  {
+    "word": "novice",
+    "pos": "",
+    "meaning": "初学者，新手"
+  },
+  {
+    "word": "rim",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "reap",
+    "pos": "",
+    "meaning": "v收获，获得;收割"
+  },
+  {
+    "word": "harvest",
+    "pos": "v.",
+    "meaning": "收获"
+  },
+  {
+    "word": "output",
+    "pos": "n.",
+    "meaning": "产量"
+  },
+  {
+    "word": "barn",
+    "pos": "",
+    "meaning": "谷仓"
+  },
+  {
+    "word": "warehouse",
+    "pos": "n.",
+    "meaning": "仓库"
+  },
+  {
+    "word": "prolific",
+    "pos": "",
+    "meaning": "多产的"
+  },
+  {
+    "word": "reiterate",
+    "pos": "",
+    "meaning": "重申，反复说"
+  },
+  {
+    "word": "dilute",
+    "pos": "",
+    "meaning": "稀释，冲淡;降低 adj"
+  },
+  {
+    "word": "laboratory",
+    "pos": "",
+    "meaning": "实验室，研究室"
+  },
+  {
+    "word": "deficit",
+    "pos": "",
+    "meaning": "赤字，亏损;不足，缺乏"
+  },
+  {
+    "word": "solid",
+    "pos": "",
+    "meaning": "固体的;可靠的 n"
+  },
+  {
+    "word": "solidify",
+    "pos": "",
+    "meaning": "使凝聚;固化  注意第一个o发ə的音不是ɒ ,引申含义："
+  },
+  {
+    "word": "thrive",
+    "pos": "v.",
+    "meaning": "繁荣，兴旺"
+  },
+  {
+    "word": "prominent",
+    "pos": "",
+    "meaning": "/ˈprɑː"
+  },
+  {
+    "word": "foresee",
+    "pos": "",
+    "meaning": "/fɚˈsiː/ v"
+  },
+  {
+    "word": "predict",
+    "pos": "v.",
+    "meaning": "预测"
+  },
+  {
+    "word": "forecast",
+    "pos": "",
+    "meaning": "预测"
+  },
+  {
+    "word": "render",
+    "pos": "",
+    "meaning": "致使，使成为，使变得;提供;递交"
+  },
+  {
+    "word": "modest",
+    "pos": "",
+    "meaning": "谦虚的，谦逊的;适度的"
+  },
+  {
+    "word": "radical",
+    "pos": "adj.",
+    "meaning": "激进的"
+  },
+  {
+    "word": "modesty",
+    "pos": "n.",
+    "meaning": "谦虚，谦逊"
+  },
+  {
+    "word": "stride",
+    "pos": "",
+    "meaning": "大步;步伐;进展v"
+  },
+  {
+    "word": "aisle",
+    "pos": "",
+    "meaning": "走廊，过道"
+  }
+]

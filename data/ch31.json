@@ -1,0 +1,302 @@
+[
+  {
+    "word": "pilot",
+    "pos": "",
+    "meaning": "飞行员;试点adj"
+  },
+  {
+    "word": "medium",
+    "pos": "",
+    "meaning": "中等的;中号的n"
+  },
+  {
+    "word": "average",
+    "pos": "adj.",
+    "meaning": "平均的;中等的"
+  },
+  {
+    "word": "media",
+    "pos": "n.",
+    "meaning": "媒体"
+  },
+  {
+    "word": "barrel",
+    "pos": "",
+    "meaning": "桶;一桶"
+  },
+  {
+    "word": "restrict",
+    "pos": "",
+    "meaning": "限制;约束;限定"
+  },
+  {
+    "word": "restriction",
+    "pos": "n.",
+    "meaning": "限制;约束"
+  },
+  {
+    "word": "unnecessary",
+    "pos": "adj.",
+    "meaning": "不必要的"
+  },
+  {
+    "word": "impose",
+    "pos": "",
+    "meaning": "强加;强制实行"
+  },
+  {
+    "word": "candidate",
+    "pos": "",
+    "meaning": "候选人;应试者"
+  },
+  {
+    "word": "decompose",
+    "pos": "",
+    "meaning": "分解;腐烂，腐败"
+  },
+  {
+    "word": "compose",
+    "pos": "v.",
+    "meaning": "组成;创作///这是反义词"
+  },
+  {
+    "word": "renew",
+    "pos": "v.",
+    "meaning": "更新;延长有效期;重新开始"
+  },
+  {
+    "word": "renewable",
+    "pos": "adj.",
+    "meaning": "可再生的;可更新的 可再生能源 renewable energy"
+  },
+  {
+    "word": "contend",
+    "pos": "",
+    "meaning": "主张;竞争;处理,对付"
+  },
+  {
+    "word": "maintain",
+    "pos": "v.",
+    "meaning": "主张;认为"
+  },
+  {
+    "word": "destiny",
+    "pos": "",
+    "meaning": "命运，定数，天命"
+  },
+  {
+    "word": "fate",
+    "pos": "n.",
+    "meaning": "命运"
+  },
+  {
+    "word": "exaggeration",
+    "pos": "n.",
+    "meaning": "夸大,夸张"
+  },
+  {
+    "word": "detour",
+    "pos": "",
+    "meaning": "/v"
+  },
+  {
+    "word": "embryo",
+    "pos": "",
+    "meaning": "胚胎;胚芽;初期adj"
+  },
+  {
+    "word": "concentrate",
+    "pos": "",
+    "meaning": "集中"
+  },
+  {
+    "word": "concentration",
+    "pos": "n.",
+    "meaning": "集中;专注"
+  },
+  {
+    "word": "foster",
+    "pos": "v.",
+    "meaning": "培养  cultivate"
+  },
+  {
+    "word": "escalate",
+    "pos": "",
+    "meaning": "加剧;增加; 增强"
+  },
+  {
+    "word": "escalator",
+    "pos": "n.",
+    "meaning": "自动扶梯"
+  },
+  {
+    "word": "architect",
+    "pos": "",
+    "meaning": "建筑师;创造者，设计师"
+  },
+  {
+    "word": "emergency",
+    "pos": "n.",
+    "meaning": "紧急状况，突发事件"
+  },
+  {
+    "word": "arouse",
+    "pos": "",
+    "meaning": "引起;唤醒;激发"
+  },
+  {
+    "word": "arousal",
+    "pos": "",
+    "meaning": "引起;唤起;激励"
+  },
+  {
+    "word": "improvise",
+    "pos": "",
+    "meaning": "即兴创作；临时做"
+  },
+  {
+    "word": "improviser",
+    "pos": "",
+    "meaning": "临时发挥;即兴发挥，即兴表演者"
+  },
+  {
+    "word": "elicit",
+    "pos": "",
+    "meaning": "引发，引起"
+  },
+  {
+    "word": "lifetime",
+    "pos": "n.",
+    "meaning": "一生;寿命;有效期"
+  },
+  {
+    "word": "enormous",
+    "pos": "",
+    "meaning": "庞大的，巨大的"
+  },
+  {
+    "word": "dynamic",
+    "pos": "adj.",
+    "meaning": "动态的;活动的n"
+  },
+  {
+    "word": "static",
+    "pos": "adj.",
+    "meaning": "静止的"
+  },
+  {
+    "word": "still",
+    "pos": "adj.",
+    "meaning": "静止的"
+  },
+  {
+    "word": "drastically",
+    "pos": "",
+    "meaning": "彻底地;剧烈地"
+  },
+  {
+    "word": "drastic",
+    "pos": "adj.",
+    "meaning": "显著的"
+  },
+  {
+    "word": "prospect",
+    "pos": "",
+    "meaning": "前景;预期;将要发生的事;景色"
+  },
+  {
+    "word": "prospective",
+    "pos": "adj.",
+    "meaning": "预期的;可能的"
+  },
+  {
+    "word": "injection",
+    "pos": "n.",
+    "meaning": "注入;注射"
+  },
+  {
+    "word": "insert",
+    "pos": "v.",
+    "meaning": "/ɪnˈsɜːt/插入，嵌入; 添加n"
+  },
+  {
+    "word": "microscope",
+    "pos": "",
+    "meaning": "显微镜"
+  },
+  {
+    "word": "repertoire",
+    "pos": "",
+    "meaning": "全部节目;全部技能"
+  },
+  {
+    "word": "articulate",
+    "pos": "adj.",
+    "meaning": "/ɑːˈtɪk"
+  },
+  {
+    "word": "assemble",
+    "pos": "",
+    "meaning": "集合，聚集;装配，组装"
+  },
+  {
+    "word": "scene",
+    "pos": "",
+    "meaning": "场面;场景;景象"
+  },
+  {
+    "word": "innate",
+    "pos": "",
+    "meaning": "先天的;固有的;与生俱来的"
+  },
+  {
+    "word": "inborn",
+    "pos": "adj.",
+    "meaning": "天生的"
+  },
+  {
+    "word": "inherent",
+    "pos": "adj.",
+    "meaning": "固有的;内在的"
+  },
+  {
+    "word": "virtually",
+    "pos": "adv.",
+    "meaning": "实质上;实际上"
+  },
+  {
+    "word": "pregnancy",
+    "pos": "n.",
+    "meaning": "怀孕"
+  },
+  {
+    "word": "biodiversity",
+    "pos": "n.",
+    "meaning": "生物多样性"
+  },
+  {
+    "word": "diversify",
+    "pos": "v.",
+    "meaning": "使多样化"
+  },
+  {
+    "word": "abuse",
+    "pos": "n.",
+    "meaning": "/əˈbjuːs/"
+  },
+  {
+    "word": "insult",
+    "pos": "v.",
+    "meaning": "侮辱;辱骂"
+  },
+  {
+    "word": "consignment",
+    "pos": "",
+    "meaning": "委托;运送;装运的货物"
+  },
+  {
+    "word": "regulation",
+    "pos": "n.",
+    "meaning": "规则;控制;管理"
+  }
+]

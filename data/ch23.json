@@ -1,0 +1,342 @@
+[
+  {
+    "word": "cite",
+    "pos": "",
+    "meaning": "引用，援引"
+  },
+  {
+    "word": "quote",
+    "pos": "",
+    "meaning": "引用  老师说这两是同义词，可以替换"
+  },
+  {
+    "word": "mediocre",
+    "pos": "",
+    "meaning": "中等的;普通的;平凡的  med=mid 中间的"
+  },
+  {
+    "word": "vary",
+    "pos": "",
+    "meaning": "相异，不同;变化，多样化"
+  },
+  {
+    "word": "variety",
+    "pos": "",
+    "meaning": "多样化;种类  ，不同种类；不同品种"
+  },
+  {
+    "word": "variant",
+    "pos": "",
+    "meaning": "变体  evolution 进化 ，natural selection 自然选择。。 老师说，自然选"
+  },
+  {
+    "word": "approximately",
+    "pos": "adv.",
+    "meaning": "大约; 近似地， 相当于about, roughly"
+  },
+  {
+    "word": "approximate",
+    "pos": "adj.",
+    "meaning": "大概的，大约的"
+  },
+  {
+    "word": "superior",
+    "pos": "",
+    "meaning": "更好的，更高的;上级的 n"
+  },
+  {
+    "word": "slim",
+    "pos": "adj.",
+    "meaning": "苗条的，纤细的;修长的"
+  },
+  {
+    "word": "boost",
+    "pos": "",
+    "meaning": "推动;宣扬，推广"
+  },
+  {
+    "word": "phase",
+    "pos": "",
+    "meaning": "时期，阶段"
+  },
+  {
+    "word": "stage",
+    "pos": "n.",
+    "meaning": "阶段  老师说在流程图里面一定会用到"
+  },
+  {
+    "word": "combine",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "combination",
+    "pos": "n.",
+    "meaning": "联合;结合"
+  },
+  {
+    "word": "cohesive",
+    "pos": "",
+    "meaning": "连接的;凝聚的;结合的"
+  },
+  {
+    "word": "subscribe",
+    "pos": "",
+    "meaning": "v订阅;捐款;赞成;签订"
+  },
+  {
+    "word": "subscription",
+    "pos": "n.",
+    "meaning": "捐款;订阅"
+  },
+  {
+    "word": "elevate",
+    "pos": "",
+    "meaning": "提升;升高"
+  },
+  {
+    "word": "raise",
+    "pos": "v.",
+    "meaning": "提升"
+  },
+  {
+    "word": "elevator",
+    "pos": "n.",
+    "meaning": "电梯;升降机"
+  },
+  {
+    "word": "elevation",
+    "pos": "n.",
+    "meaning": "高处;高地;海拔"
+  },
+  {
+    "word": "lever",
+    "pos": "n.",
+    "meaning": "杆，杠杆"
+  },
+  {
+    "word": "profit",
+    "pos": "",
+    "meaning": "利润;利益v获利;获益"
+  },
+  {
+    "word": "profitable",
+    "pos": "adj.",
+    "meaning": "有利可图的;有利润的"
+  },
+  {
+    "word": "cost",
+    "pos": "n.",
+    "meaning": "成本"
+  },
+  {
+    "word": "revenue",
+    "pos": "n.",
+    "meaning": "收入"
+  },
+  {
+    "word": "income",
+    "pos": "n.",
+    "meaning": "收入"
+  },
+  {
+    "word": "budget",
+    "pos": "n.",
+    "meaning": "预算"
+  },
+  {
+    "word": "expense",
+    "pos": "n.",
+    "meaning": "花费，费用"
+  },
+  {
+    "word": "criticisecriticize",
+    "pos": "",
+    "meaning": "批评;评论"
+  },
+  {
+    "word": "criticism",
+    "pos": "",
+    "meaning": "批评;评论"
+  },
+  {
+    "word": "automatic",
+    "pos": "",
+    "meaning": "自动的;无意识的"
+  },
+  {
+    "word": "impetus",
+    "pos": "",
+    "meaning": "动力;促进;冲力"
+  },
+  {
+    "word": "compatible",
+    "pos": "",
+    "meaning": "兼容的;能共处的"
+  },
+  {
+    "word": "incompatible",
+    "pos": "adj.",
+    "meaning": "不兼容的;无法共存的"
+  },
+  {
+    "word": "lenient",
+    "pos": "",
+    "meaning": "仁慈的，宽大的，宽容的"
+  },
+  {
+    "word": "item",
+    "pos": "",
+    "meaning": "项目，条款;一件商品;一则"
+  },
+  {
+    "word": "circle",
+    "pos": "n.",
+    "meaning": "圆;循环，周期v旋转;环绕"
+  },
+  {
+    "word": "dispose",
+    "pos": "v.",
+    "meaning": "安排;处理"
+  },
+  {
+    "word": "disposal",
+    "pos": "n.",
+    "meaning": "处理;安排"
+  },
+  {
+    "word": "overlook",
+    "pos": "v.",
+    "meaning": "忽略;不予理会;俯瞰"
+  },
+  {
+    "word": "miss",
+    "pos": "v.",
+    "meaning": "忽略"
+  },
+  {
+    "word": "grid",
+    "pos": "n.",
+    "meaning": "网格;栅栏;电力网"
+  },
+  {
+    "word": "fund",
+    "pos": "n.",
+    "meaning": "基金，专款;资金v投资;资助"
+  },
+  {
+    "word": "interval",
+    "pos": "n.",
+    "meaning": "间隔，间隙;幕间休息，中场休息"
+  },
+  {
+    "word": "perplex",
+    "pos": "",
+    "meaning": "使困惑;使复杂"
+  },
+  {
+    "word": "confuse",
+    "pos": "v.",
+    "meaning": "使困惑"
+  },
+  {
+    "word": "helix",
+    "pos": "",
+    "meaning": "螺旋，螺旋状 plural复数形式 helices /ˈhiː"
+  },
+  {
+    "word": "hexadecimal",
+    "pos": "",
+    "meaning": "十六进制"
+  },
+  {
+    "word": "specimen",
+    "pos": "",
+    "meaning": "样品，样本;标本"
+  },
+  {
+    "word": "sample",
+    "pos": "n.",
+    "meaning": "样品;样本"
+  },
+  {
+    "word": "archaeological",
+    "pos": "adj.",
+    "meaning": "考古的;考古学的"
+  },
+  {
+    "word": "mess",
+    "pos": "",
+    "meaning": "混乱;困境"
+  },
+  {
+    "word": "cassette",
+    "pos": "",
+    "meaning": "盒式磁带;胶片盒"
+  },
+  {
+    "word": "chest",
+    "pos": "n.",
+    "meaning": "胸部，胸膛;箱子，盒子"
+  },
+  {
+    "word": "paralyse",
+    "pos": "",
+    "meaning": "使瘫痪;使麻痹"
+  },
+  {
+    "word": "paralysis",
+    "pos": "",
+    "meaning": "瘫痪;麻痹"
+  },
+  {
+    "word": "component",
+    "pos": "",
+    "meaning": "组成部分;组件 adj"
+  },
+  {
+    "word": "appropriate",
+    "pos": "",
+    "meaning": "适当的;恰当的;合适的"
+  },
+  {
+    "word": "inappropriate",
+    "pos": "adj.",
+    "meaning": "不适合的"
+  },
+  {
+    "word": "command",
+    "pos": "",
+    "meaning": "命令;指挥 n"
+  },
+  {
+    "word": "debate",
+    "pos": "n.",
+    "meaning": "辩论;争论"
+  },
+  {
+    "word": "controversial",
+    "pos": "adj.",
+    "meaning": "有争议的"
+  },
+  {
+    "word": "complain",
+    "pos": "",
+    "meaning": "抱怨;控诉;投诉"
+  },
+  {
+    "word": "complaint",
+    "pos": "",
+    "meaning": "抱怨;投诉"
+  },
+  {
+    "word": "inevitable",
+    "pos": "",
+    "meaning": "必然的;不可避免的"
+  },
+  {
+    "word": "unavoidable",
+    "pos": "adj.",
+    "meaning": "不可避免的"
+  }
+]

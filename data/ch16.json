@@ -1,0 +1,292 @@
+[
+  {
+    "word": "manufacture",
+    "pos": "v.",
+    "meaning": "/n"
+  },
+  {
+    "word": "constant",
+    "pos": "adj.",
+    "meaning": "不变的;恒定的;经常的"
+  },
+  {
+    "word": "version",
+    "pos": "n.",
+    "meaning": "版本"
+  },
+  {
+    "word": "proclaim",
+    "pos": "v.",
+    "meaning": "宣告，声明"
+  },
+  {
+    "word": "declare",
+    "pos": "v.",
+    "meaning": "宣告;声明"
+  },
+  {
+    "word": "prompt",
+    "pos": "adj.",
+    "meaning": "迅速的;立刻的v"
+  },
+  {
+    "word": "immediate",
+    "pos": "adj.",
+    "meaning": "立即的 同义替换"
+  },
+  {
+    "word": "ascertain",
+    "pos": "",
+    "meaning": "确定;查明 老师说：certain本来就是确定的意思，as表加强"
+  },
+  {
+    "word": "entail",
+    "pos": "v.",
+    "meaning": "使必要，需要"
+  },
+  {
+    "word": "classify",
+    "pos": "v.",
+    "meaning": "分类;分等"
+  },
+  {
+    "word": "classification",
+    "pos": "n.",
+    "meaning": "分类;类别"
+  },
+  {
+    "word": "establish",
+    "pos": "v.",
+    "meaning": "建立，创立"
+  },
+  {
+    "word": "establishment",
+    "pos": "n.",
+    "meaning": "建立，建设"
+  },
+  {
+    "word": "represent",
+    "pos": "v.",
+    "meaning": "代表;表现，老师说这个词在饼图里面常用到"
+  },
+  {
+    "word": "representative",
+    "pos": "n.",
+    "meaning": "代表"
+  },
+  {
+    "word": "emphasis",
+    "pos": "",
+    "meaning": "重点;强调"
+  },
+  {
+    "word": "stress",
+    "pos": "n.",
+    "meaning": "重点v"
+  },
+  {
+    "word": "emphasise",
+    "pos": "v.",
+    "meaning": "强调;加强"
+  },
+  {
+    "word": "principal",
+    "pos": "",
+    "meaning": "主要的 n"
+  },
+  {
+    "word": "placebo",
+    "pos": "",
+    "meaning": "安慰剂，还有使人宽慰的事;安抚话的意思"
+  },
+  {
+    "word": "rage",
+    "pos": "n.",
+    "meaning": "愤怒v"
+  },
+  {
+    "word": "outrage",
+    "pos": "v.",
+    "meaning": "使气愤"
+  },
+  {
+    "word": "alley",
+    "pos": "",
+    "meaning": "小巷，胡同"
+  },
+  {
+    "word": "underpin",
+    "pos": "v.",
+    "meaning": "巩固;构成基础;支撑"
+  },
+  {
+    "word": "contribute",
+    "pos": "",
+    "meaning": "贡献;有助于;捐助"
+  },
+  {
+    "word": "steep",
+    "pos": "adj.",
+    "meaning": "陡峭的; 急剧的，大幅度的"
+  },
+  {
+    "word": "reptile",
+    "pos": "n.",
+    "meaning": "爬行动物"
+  },
+  {
+    "word": "mammal",
+    "pos": "n.",
+    "meaning": "哺乳动物"
+  },
+  {
+    "word": "vertebrate",
+    "pos": "n.",
+    "meaning": "脊椎动物"
+  },
+  {
+    "word": "primate",
+    "pos": "n.",
+    "meaning": "灵长类动物"
+  },
+  {
+    "word": "neuron",
+    "pos": "",
+    "meaning": "神经元;神经单位"
+  },
+  {
+    "word": "thermal",
+    "pos": "adj.",
+    "meaning": "热的;热量的"
+  },
+  {
+    "word": "oppose",
+    "pos": "",
+    "meaning": "反对;对抗"
+  },
+  {
+    "word": "fluent",
+    "pos": "adj.",
+    "meaning": "流畅的; 流利的 flu是流动的意思，ent是形容词"
+  },
+  {
+    "word": "fluency",
+    "pos": "n.",
+    "meaning": "流利;流利度"
+  },
+  {
+    "word": "clue",
+    "pos": "n.",
+    "meaning": "线索，提示"
+  },
+  {
+    "word": "balcony",
+    "pos": "",
+    "meaning": "阳台;包厢"
+  },
+  {
+    "word": "kitchen",
+    "pos": "n.",
+    "meaning": "厨房"
+  },
+  {
+    "word": "bedroom",
+    "pos": "n.",
+    "meaning": "卧室"
+  },
+  {
+    "word": "stem",
+    "pos": "",
+    "meaning": "干;茎v"
+  },
+  {
+    "word": "account",
+    "pos": "",
+    "meaning": "账户;解释;理由v"
+  },
+  {
+    "word": "pedal",
+    "pos": "",
+    "meaning": "踏板v"
+  },
+  {
+    "word": "inclination",
+    "pos": "n.",
+    "meaning": "倾向;斜坡"
+  },
+  {
+    "word": "capture",
+    "pos": "v.",
+    "meaning": "抓住;获得;捕获 n"
+  },
+  {
+    "word": "export",
+    "pos": "n.",
+    "meaning": "/ˈek"
+  },
+  {
+    "word": "import",
+    "pos": "n.",
+    "meaning": "/v"
+  },
+  {
+    "word": "vessel",
+    "pos": "",
+    "meaning": "船，舰;血管;容器"
+  },
+  {
+    "word": "marvel",
+    "pos": "n.",
+    "meaning": "令人惊异的人"
+  },
+  {
+    "word": "calendar",
+    "pos": "n.",
+    "meaning": "日历;历法;日程表"
+  },
+  {
+    "word": "module",
+    "pos": "n.",
+    "meaning": "模块;组件"
+  },
+  {
+    "word": "severe",
+    "pos": "",
+    "meaning": "严重的;严厉的;剧烈的"
+  },
+  {
+    "word": "severity",
+    "pos": "",
+    "meaning": "严重性"
+  },
+  {
+    "word": "molecule",
+    "pos": "",
+    "meaning": "分子;微粒"
+  },
+  {
+    "word": "molecular",
+    "pos": "adj.",
+    "meaning": "分子的"
+  },
+  {
+    "word": "intangible",
+    "pos": "adj.",
+    "meaning": "无形的"
+  },
+  {
+    "word": "device",
+    "pos": "n.",
+    "meaning": "装置，设备;策略，方法"
+  },
+  {
+    "word": "narrative",
+    "pos": "",
+    "meaning": "叙述，叙事"
+  },
+  {
+    "word": "band",
+    "pos": "n.",
+    "meaning": "乐队;带状物，条纹"
+  }
+]

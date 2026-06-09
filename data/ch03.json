@@ -1,0 +1,442 @@
+[
+  {
+    "word": "offspring",
+    "pos": "n.",
+    "meaning": "后代，子孙;产物"
+  },
+  {
+    "word": "astray",
+    "pos": "adv.",
+    "meaning": "离开正确的路"
+  },
+  {
+    "word": "chew",
+    "pos": "v.",
+    "meaning": "/n"
+  },
+  {
+    "word": "diesel",
+    "pos": "n.",
+    "meaning": "柴油;内燃机，柴油车"
+  },
+  {
+    "word": "pastime",
+    "pos": "n.",
+    "meaning": "娱乐，消遣 这个词等于recreation"
+  },
+  {
+    "word": "release",
+    "pos": "v.",
+    "meaning": "释放;公开;发表 n"
+  },
+  {
+    "word": "loop",
+    "pos": "n.",
+    "meaning": "环状物；回路；环线"
+  },
+  {
+    "word": "passive",
+    "pos": "adj.",
+    "meaning": "被动的;消极的 sive=tive，表示形容词后缀"
+  },
+  {
+    "word": "active",
+    "pos": "adj.",
+    "meaning": "主动的;活跃的 这是反义词"
+  },
+  {
+    "word": "passively",
+    "pos": "adv.",
+    "meaning": "被动地;消极地"
+  },
+  {
+    "word": "precedent",
+    "pos": "n.",
+    "meaning": "先例，前例"
+  },
+  {
+    "word": "resilience",
+    "pos": "n.",
+    "meaning": "恢复力，复原力;弹性，韧性"
+  },
+  {
+    "word": "resilient",
+    "pos": "adj.",
+    "meaning": "有承受力的，有复原力的"
+  },
+  {
+    "word": "diagnose",
+    "pos": "v.",
+    "meaning": "诊断;判断"
+  },
+  {
+    "word": "diagnosis",
+    "pos": "n.",
+    "meaning": "诊断;判断"
+  },
+  {
+    "word": "receptive",
+    "pos": "adj.",
+    "meaning": "接受的;容纳的"
+  },
+  {
+    "word": "receive",
+    "pos": "v.",
+    "meaning": "接收;收到"
+  },
+  {
+    "word": "reception",
+    "pos": "n.",
+    "meaning": "接待;接待处"
+  },
+  {
+    "word": "ideal",
+    "pos": "adj.",
+    "meaning": "理想的；完美的 n"
+  },
+  {
+    "word": "idealism",
+    "pos": "n.",
+    "meaning": "理想主义 ism抽象名词，，什么什么主义"
+  },
+  {
+    "word": "proper",
+    "pos": "adj.",
+    "meaning": "合适的，适当的"
+  },
+  {
+    "word": "appropriate",
+    "pos": "adj.",
+    "meaning": "合适的 同义词，前面的ap表加强，ate表形容词"
+  },
+  {
+    "word": "improper",
+    "pos": "adj.",
+    "meaning": "不合适的 反义词"
+  },
+  {
+    "word": "lateral",
+    "pos": "adj.",
+    "meaning": "侧面的，横向的"
+  },
+  {
+    "word": "impart",
+    "pos": "v.",
+    "meaning": "传授，告知;赋予，给予"
+  },
+  {
+    "word": "sanitary",
+    "pos": "adj.",
+    "meaning": "卫生的，清洁的"
+  },
+  {
+    "word": "fossil",
+    "pos": "n.",
+    "meaning": "化石;老顽固，思想僵化的人"
+  },
+  {
+    "word": "academic",
+    "pos": "adj.",
+    "meaning": "学术的;理论的;学院的"
+  },
+  {
+    "word": "academy",
+    "pos": "n.",
+    "meaning": "学会;学院 简写为字母A"
+  },
+  {
+    "word": "texture",
+    "pos": "n.",
+    "meaning": "质地，纹理 text做词根的时候表示的是编织的意思weave"
+  },
+  {
+    "word": "era",
+    "pos": "n.",
+    "meaning": "时代，年代，纪元"
+  },
+  {
+    "word": "reliable",
+    "pos": "adj.",
+    "meaning": "可靠的;可信赖的 这个词来自于rely"
+  },
+  {
+    "word": "shrewd",
+    "pos": "adj.",
+    "meaning": "精明的，机敏的"
+  },
+  {
+    "word": "grand",
+    "pos": "adj.",
+    "meaning": "壮丽的;宏伟的"
+  },
+  {
+    "word": "magnificent",
+    "pos": "adj.",
+    "meaning": "壮丽的;宏伟的"
+  },
+  {
+    "word": "administration",
+    "pos": "n.",
+    "meaning": "管理;行政;行政机构"
+  },
+  {
+    "word": "administrate",
+    "pos": "v.",
+    "meaning": "管理;支配"
+  },
+  {
+    "word": "administrator",
+    "pos": "n.",
+    "meaning": "管理者"
+  },
+  {
+    "word": "drawback",
+    "pos": "n.",
+    "meaning": "缺点，不利条件"
+  },
+  {
+    "word": "disadvantage",
+    "pos": "n.",
+    "meaning": "缺点"
+  },
+  {
+    "word": "complicate",
+    "pos": "v.",
+    "meaning": "使复杂化"
+  },
+  {
+    "word": "complicated",
+    "pos": "adj.",
+    "meaning": "复杂的;混乱的 =complex"
+  },
+  {
+    "word": "sphere",
+    "pos": "n.",
+    "meaning": "范围，领域;球体，球形"
+  },
+  {
+    "word": "atmosphere",
+    "pos": "n.",
+    "meaning": "大气层"
+  },
+  {
+    "word": "hemisphere",
+    "pos": "n.",
+    "meaning": "半球"
+  },
+  {
+    "word": "surplus",
+    "pos": "n.",
+    "meaning": "剩余;盈余 adj"
+  },
+  {
+    "word": "deficit",
+    "pos": "n.",
+    "meaning": "赤字;亏损"
+  },
+  {
+    "word": "shortage",
+    "pos": "n.",
+    "meaning": "短缺"
+  },
+  {
+    "word": "trap",
+    "pos": "n.",
+    "meaning": "陷阱;圈套 v"
+  },
+  {
+    "word": "gravity",
+    "pos": "n.",
+    "meaning": "重力，地心引力;严重性"
+  },
+  {
+    "word": "seriousness",
+    "pos": "n.",
+    "meaning": "严重性 ness是名词后缀"
+  },
+  {
+    "word": "grave",
+    "pos": "adj.",
+    "meaning": "严重的，重大的"
+  },
+  {
+    "word": "aggravate",
+    "pos": "v.",
+    "meaning": "使恶化，使变严重 ag表加强"
+  },
+  {
+    "word": "cube",
+    "pos": "n.",
+    "meaning": "立方体;立方"
+  },
+  {
+    "word": "conscience",
+    "pos": "n.",
+    "meaning": "道德心，良心"
+  },
+  {
+    "word": "deduce",
+    "pos": "v.",
+    "meaning": "推论，推断;演绎出"
+  },
+  {
+    "word": "infer",
+    "pos": "v.",
+    "meaning": "推论，推断"
+  },
+  {
+    "word": "comprehend",
+    "pos": "v.",
+    "meaning": "理解，领悟"
+  },
+  {
+    "word": "comprehension",
+    "pos": "n.",
+    "meaning": "理解，包含 sion表名词后缀"
+  },
+  {
+    "word": "comprehensive",
+    "pos": "adj.",
+    "meaning": "综合的，广泛的 sive表形容词后缀，这个综合的挺难记住"
+  },
+  {
+    "word": "retreat",
+    "pos": "v.",
+    "meaning": "撤退; 后退 n"
+  },
+  {
+    "word": "ballet",
+    "pos": "n.",
+    "meaning": "芭蕾舞剧;芭蕾舞"
+  },
+  {
+    "word": "monster",
+    "pos": "n.",
+    "meaning": "怪兽，怪物 adj"
+  },
+  {
+    "word": "erupt",
+    "pos": "v.",
+    "meaning": "爆发;喷发"
+  },
+  {
+    "word": "eruption",
+    "pos": "n.",
+    "meaning": "爆发;喷出"
+  },
+  {
+    "word": "surround",
+    "pos": "v.",
+    "meaning": "围绕;包围"
+  },
+  {
+    "word": "surrounding",
+    "pos": "adj.",
+    "meaning": "周围的;附近的"
+  },
+  {
+    "word": "poll",
+    "pos": "n.",
+    "meaning": "投票;民意测验v"
+  },
+  {
+    "word": "survey",
+    "pos": "n.",
+    "meaning": "调查 重音在第一个音节"
+  },
+  {
+    "word": "ballot",
+    "pos": "n.",
+    "meaning": "投票表决"
+  },
+  {
+    "word": "frequent",
+    "pos": "adj.",
+    "meaning": "频繁的;时常发生的"
+  },
+  {
+    "word": "frequency",
+    "pos": "n.",
+    "meaning": "频繁;频率"
+  },
+  {
+    "word": "frequently",
+    "pos": "adv.",
+    "meaning": "频繁地"
+  },
+  {
+    "word": "conversely",
+    "pos": "adv.",
+    "meaning": "相反地"
+  },
+  {
+    "word": "converse",
+    "pos": "adj.",
+    "meaning": "相反的"
+  },
+  {
+    "word": "forecast",
+    "pos": "v.",
+    "meaning": "/n"
+  },
+  {
+    "word": "predict",
+    "pos": "v.",
+    "meaning": "预测foresee v"
+  },
+  {
+    "word": "genius",
+    "pos": "n.",
+    "meaning": "天才;天赋"
+  },
+  {
+    "word": "initial",
+    "pos": "adj.",
+    "meaning": "最初的，开始的"
+  },
+  {
+    "word": "initially",
+    "pos": "adv.",
+    "meaning": "开始，最初"
+  },
+  {
+    "word": "initiate",
+    "pos": "v.",
+    "meaning": "开始;发起"
+  },
+  {
+    "word": "initiative",
+    "pos": "n.",
+    "meaning": "措施，倡议;主动性 特别注意，tive一般是形容词，但是这个是名词，真题里面考过"
+  },
+  {
+    "word": "atom",
+    "pos": "n.",
+    "meaning": "原子"
+  },
+  {
+    "word": "atomic",
+    "pos": "adj.",
+    "meaning": "原子的"
+  },
+  {
+    "word": "molecule",
+    "pos": "",
+    "meaning": "分子"
+  },
+  {
+    "word": "neutron",
+    "pos": "n.",
+    "meaning": "中子"
+  },
+  {
+    "word": "particle",
+    "pos": "n.",
+    "meaning": "微粒，颗粒;粒子"
+  },
+  {
+    "word": "proton",
+    "pos": "n.",
+    "meaning": "质子"
+  }
+]

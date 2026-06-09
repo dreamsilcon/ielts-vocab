@@ -1,0 +1,327 @@
+[
+  {
+    "word": "inherit",
+    "pos": "",
+    "meaning": "继承;遗传"
+  },
+  {
+    "word": "sway",
+    "pos": "",
+    "meaning": "摇摆，摇晃;说服 n"
+  },
+  {
+    "word": "calculate",
+    "pos": "v.",
+    "meaning": "计算;预测，估计"
+  },
+  {
+    "word": "calculation",
+    "pos": "n.",
+    "meaning": "计算"
+  },
+  {
+    "word": "harness",
+    "pos": "",
+    "meaning": "控制，利用;用马具;n"
+  },
+  {
+    "word": "equator",
+    "pos": "",
+    "meaning": "赤道"
+  },
+  {
+    "word": "equal",
+    "pos": "adj.",
+    "meaning": "相等的"
+  },
+  {
+    "word": "equation",
+    "pos": "n.",
+    "meaning": "等式，方程式"
+  },
+  {
+    "word": "inauthentic",
+    "pos": "adj.",
+    "meaning": "不真实的，假的"
+  },
+  {
+    "word": "ceramic",
+    "pos": "",
+    "meaning": "陶瓷制品，陶瓷器 adj"
+  },
+  {
+    "word": "imitate",
+    "pos": "",
+    "meaning": "模仿;仿造"
+  },
+  {
+    "word": "mimic",
+    "pos": "v.",
+    "meaning": "模仿"
+  },
+  {
+    "word": "imitation",
+    "pos": "n.",
+    "meaning": "模仿"
+  },
+  {
+    "word": "herb",
+    "pos": "n.",
+    "meaning": "药草，香草;草本植物"
+  },
+  {
+    "word": "negative",
+    "pos": "adj.",
+    "meaning": "消极的;否定的"
+  },
+  {
+    "word": "positive",
+    "pos": "adj.",
+    "meaning": "积极的"
+  },
+  {
+    "word": "process",
+    "pos": "n.",
+    "meaning": "过程;进程;步骤v"
+  },
+  {
+    "word": "dedicate",
+    "pos": "",
+    "meaning": "致力于;奉献于"
+  },
+  {
+    "word": "devote",
+    "pos": "v.",
+    "meaning": "奉献"
+  },
+  {
+    "word": "dedication",
+    "pos": "n.",
+    "meaning": "奉献，献身"
+  },
+  {
+    "word": "widespread",
+    "pos": "",
+    "meaning": "普遍的，广泛的;分布广的"
+  },
+  {
+    "word": "postcode",
+    "pos": "",
+    "meaning": "邮政编码 老师说，听力里面的邮编一定要会听"
+  },
+  {
+    "word": "displace",
+    "pos": "",
+    "meaning": "取代;置换;转移;免职"
+  },
+  {
+    "word": "monument",
+    "pos": "",
+    "meaning": "纪念碑;历史遗迹;不朽作品"
+  },
+  {
+    "word": "monumental",
+    "pos": "adj.",
+    "meaning": "不朽的;纪念碑的"
+  },
+  {
+    "word": "concise",
+    "pos": "",
+    "meaning": "简明的，简洁的"
+  },
+  {
+    "word": "redundant",
+    "pos": "adj.",
+    "meaning": "多余的;冗长的"
+  },
+  {
+    "word": "complex",
+    "pos": "adj.",
+    "meaning": "复杂的"
+  },
+  {
+    "word": "concisely",
+    "pos": "adv.",
+    "meaning": "简明地;简洁地"
+  },
+  {
+    "word": "desperate",
+    "pos": "",
+    "meaning": "不顾一切的;绝望的 非常严重的；非常糟糕的"
+  },
+  {
+    "word": "censor",
+    "pos": "",
+    "meaning": "审查;检查 n"
+  },
+  {
+    "word": "censorship",
+    "pos": "n.",
+    "meaning": "审查;审查制度"
+  },
+  {
+    "word": "sensor",
+    "pos": "",
+    "meaning": "传感器"
+  },
+  {
+    "word": "twist",
+    "pos": "",
+    "meaning": "弯曲;扭动，拧;旋转n"
+  },
+  {
+    "word": "symbol",
+    "pos": "",
+    "meaning": "象征;符号;标志"
+  },
+  {
+    "word": "symbolic",
+    "pos": "",
+    "meaning": "象征的;象征性的"
+  },
+  {
+    "word": "silt",
+    "pos": "n.",
+    "meaning": "淤泥，泥沙v"
+  },
+  {
+    "word": "acid",
+    "pos": "n.",
+    "meaning": "酸 adj"
+  },
+  {
+    "word": "matrix",
+    "pos": "n.",
+    "meaning": "矩阵;模型;发源地"
+  },
+  {
+    "word": "prey",
+    "pos": "n.",
+    "meaning": "猎物，捕获物;受害者v"
+  },
+  {
+    "word": "certificate",
+    "pos": "n.",
+    "meaning": "证书;执照;文凭"
+  },
+  {
+    "word": "certification",
+    "pos": "n.",
+    "meaning": "证明"
+  },
+  {
+    "word": "prohibit",
+    "pos": "v.",
+    "meaning": "阻止，禁止"
+  },
+  {
+    "word": "forbid",
+    "pos": "v.",
+    "meaning": "禁止"
+  },
+  {
+    "word": "prevent",
+    "pos": "v.",
+    "meaning": "防止;阻止"
+  },
+  {
+    "word": "dissociate",
+    "pos": "v.",
+    "meaning": "否认关系;与"
+  },
+  {
+    "word": "association",
+    "pos": "n.",
+    "meaning": "联系:联盟"
+  },
+  {
+    "word": "confine",
+    "pos": "",
+    "meaning": "限制，局限 n"
+  },
+  {
+    "word": "restrict",
+    "pos": "v.",
+    "meaning": "限制"
+  },
+  {
+    "word": "attain",
+    "pos": "",
+    "meaning": "达到，实现;获得  这个等于reach和get的合体"
+  },
+  {
+    "word": "attainable",
+    "pos": "adj.",
+    "meaning": "可达到的;可得到的"
+  },
+  {
+    "word": "retail",
+    "pos": "",
+    "meaning": "/v"
+  },
+  {
+    "word": "retailer",
+    "pos": "n.",
+    "meaning": "零售商;零售店"
+  },
+  {
+    "word": "interior",
+    "pos": "",
+    "meaning": "内部;本质 adj"
+  },
+  {
+    "word": "wax",
+    "pos": "",
+    "meaning": "蜡;蜡烛 v"
+  },
+  {
+    "word": "acclaim",
+    "pos": "",
+    "meaning": "/n"
+  },
+  {
+    "word": "seep",
+    "pos": "",
+    "meaning": "/n"
+  },
+  {
+    "word": "temporary",
+    "pos": "",
+    "meaning": "/ˈtem"
+  },
+  {
+    "word": "barrier",
+    "pos": "",
+    "meaning": "障碍物，屏障;界线 ；检票口"
+  },
+  {
+    "word": "obstacle",
+    "pos": "n.",
+    "meaning": "障碍"
+  },
+  {
+    "word": "abstract",
+    "pos": "adj.",
+    "meaning": "抽象的"
+  },
+  {
+    "word": "supervise",
+    "pos": "",
+    "meaning": "监督;管理;指导 老师说：super=up, vise=see看，从上面看"
+  },
+  {
+    "word": "supervision",
+    "pos": "n.",
+    "meaning": "监督;管理"
+  },
+  {
+    "word": "script",
+    "pos": "",
+    "meaning": "脚本;剧本;笔迹v写脚本;写剧本"
+  },
+  {
+    "word": "recreational",
+    "pos": "adj.",
+    "meaning": "娱乐的;消遣的"
+  }
+]

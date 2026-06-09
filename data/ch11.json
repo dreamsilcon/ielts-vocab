@@ -1,0 +1,332 @@
+[
+  {
+    "word": "shatter",
+    "pos": "v.",
+    "meaning": "破碎，碎裂; 破坏，摧毁"
+  },
+  {
+    "word": "postpone",
+    "pos": "v.",
+    "meaning": "延期;延缓"
+  },
+  {
+    "word": "delay",
+    "pos": "v.",
+    "meaning": "推迟;延期"
+  },
+  {
+    "word": "divorce",
+    "pos": "n.",
+    "meaning": "离婚;分离"
+  },
+  {
+    "word": "dominate",
+    "pos": "v.",
+    "meaning": "统治，支配;占优势"
+  },
+  {
+    "word": "dominant",
+    "pos": "adj.",
+    "meaning": "主导的，支配的"
+  },
+  {
+    "word": "discount",
+    "pos": "n.",
+    "meaning": "折扣v打折;贬损;忽视"
+  },
+  {
+    "word": "metaphor",
+    "pos": "",
+    "meaning": "比喻;隐喻"
+  },
+  {
+    "word": "accommodation",
+    "pos": "n.",
+    "meaning": "住处;住宿"
+  },
+  {
+    "word": "accommodate",
+    "pos": "v.",
+    "meaning": "容纳;使适应"
+  },
+  {
+    "word": "helicopter",
+    "pos": "n.",
+    "meaning": "直升机"
+  },
+  {
+    "word": "admire",
+    "pos": "v.",
+    "meaning": "钦佩;赞美，称赞"
+  },
+  {
+    "word": "admiration",
+    "pos": "n.",
+    "meaning": "赞美;钦佩"
+  },
+  {
+    "word": "landlord",
+    "pos": "n.",
+    "meaning": "房东；地主"
+  },
+  {
+    "word": "rent",
+    "pos": "n.",
+    "meaning": "租金"
+  },
+  {
+    "word": "tenant",
+    "pos": "n.",
+    "meaning": "租户"
+  },
+  {
+    "word": "consult",
+    "pos": "v.",
+    "meaning": "咨询;商议"
+  },
+  {
+    "word": "consultant",
+    "pos": "n.",
+    "meaning": "顾问;咨询师"
+  },
+  {
+    "word": "cell",
+    "pos": "n.",
+    "meaning": "细胞"
+  },
+  {
+    "word": "influence",
+    "pos": "v.",
+    "meaning": "/n"
+  },
+  {
+    "word": "affection",
+    "pos": "n.",
+    "meaning": "感情;喜爱"
+  },
+  {
+    "word": "timetable",
+    "pos": "n.",
+    "meaning": "时间表;时刻表;课程表"
+  },
+  {
+    "word": "decipher",
+    "pos": "",
+    "meaning": "破译; 辨认"
+  },
+  {
+    "word": "bilingual",
+    "pos": "adj.",
+    "meaning": "双语的;使用双语的"
+  },
+  {
+    "word": "corpus",
+    "pos": "n.",
+    "meaning": "语料库"
+  },
+  {
+    "word": "dialect",
+    "pos": "n.",
+    "meaning": "方言"
+  },
+  {
+    "word": "syntax",
+    "pos": "",
+    "meaning": "句法"
+  },
+  {
+    "word": "semantics",
+    "pos": "",
+    "meaning": "语义学"
+  },
+  {
+    "word": "bow",
+    "pos": "v.",
+    "meaning": "/n"
+  },
+  {
+    "word": "accumulate",
+    "pos": "",
+    "meaning": "累积;积聚"
+  },
+  {
+    "word": "accumulation",
+    "pos": "n.",
+    "meaning": "积累"
+  },
+  {
+    "word": "menace",
+    "pos": "n.",
+    "meaning": "威胁，危险v"
+  },
+  {
+    "word": "evolution",
+    "pos": "n.",
+    "meaning": "进化;进化论;进展"
+  },
+  {
+    "word": "evolve",
+    "pos": "v.",
+    "meaning": "演化;进化"
+  },
+  {
+    "word": "byproduct",
+    "pos": "n.",
+    "meaning": "副产品"
+  },
+  {
+    "word": "manipulate",
+    "pos": "v.",
+    "meaning": "操纵;操作"
+  },
+  {
+    "word": "manipulation",
+    "pos": "n.",
+    "meaning": "操作;操纵"
+  },
+  {
+    "word": "dwell",
+    "pos": "v.",
+    "meaning": "居住;存在于"
+  },
+  {
+    "word": "dwelling",
+    "pos": "n.",
+    "meaning": "住处，处所"
+  },
+  {
+    "word": "dweller",
+    "pos": "n.",
+    "meaning": "居民，居住者"
+  },
+  {
+    "word": "example",
+    "pos": "n.",
+    "meaning": "例子，范例"
+  },
+  {
+    "word": "diagram",
+    "pos": "n.",
+    "meaning": "图表；图解"
+  },
+  {
+    "word": "remedy",
+    "pos": "n.",
+    "meaning": "解决方法，纠正方法;疗法"
+  },
+  {
+    "word": "infant",
+    "pos": "n.",
+    "meaning": "婴儿，幼儿 adj"
+  },
+  {
+    "word": "segment",
+    "pos": "n.",
+    "meaning": "一段，部分"
+  },
+  {
+    "word": "predator",
+    "pos": "",
+    "meaning": "捕食者;食肉动物;掠夺者"
+  },
+  {
+    "word": "compensate",
+    "pos": "",
+    "meaning": "补偿，赔偿"
+  },
+  {
+    "word": "compensation",
+    "pos": "n.",
+    "meaning": "补偿"
+  },
+  {
+    "word": "intake",
+    "pos": "n.",
+    "meaning": "摄取量，吸入量"
+  },
+  {
+    "word": "fame",
+    "pos": "n.",
+    "meaning": "名声，名望"
+  },
+  {
+    "word": "reputation",
+    "pos": "n.",
+    "meaning": "名声，名誉"
+  },
+  {
+    "word": "abide",
+    "pos": "v.",
+    "meaning": "遵守; 忍受"
+  },
+  {
+    "word": "circuit",
+    "pos": "n.",
+    "meaning": "电路，回路"
+  },
+  {
+    "word": "unwind",
+    "pos": "v.",
+    "meaning": "放松;解开;展开"
+  },
+  {
+    "word": "relax",
+    "pos": "v.",
+    "meaning": "放松，轻松"
+  },
+  {
+    "word": "dose",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "alleviate",
+    "pos": "",
+    "meaning": "减轻，缓和"
+  },
+  {
+    "word": "conference",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "freight",
+    "pos": "",
+    "meaning": "货运;货物"
+  },
+  {
+    "word": "identical",
+    "pos": "adj.",
+    "meaning": "同一的;相同的"
+  },
+  {
+    "word": "penetrate",
+    "pos": "v.",
+    "meaning": "渗透;穿透;洞察"
+  },
+  {
+    "word": "penetration",
+    "pos": "n.",
+    "meaning": "渗透;穿透"
+  },
+  {
+    "word": "hydrogen",
+    "pos": "n.",
+    "meaning": "氢;氢气"
+  },
+  {
+    "word": "iron",
+    "pos": "n.",
+    "meaning": "铁;熨斗;铁器v"
+  },
+  {
+    "word": "manual",
+    "pos": "",
+    "meaning": "说明书，册子，指南 adj"
+  },
+  {
+    "word": "outbreak",
+    "pos": "n.",
+    "meaning": "爆发，突然发生，这个词实际上就是break out。"
+  }
+]

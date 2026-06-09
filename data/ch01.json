@@ -25,11 +25,6 @@
     "meaning": "强调"
   },
   {
-    "word": "proficiency",
-    "pos": "n.",
-    "meaning": "精通，熟练"
-  },
-  {
     "word": "proficient",
     "pos": "adj.",
     "meaning": "熟练的"
@@ -62,17 +57,12 @@
   {
     "word": "embrace",
     "pos": "",
-    "meaning": "拥抱;包含;接受，一个单词有不同的意思，但是这些不同意思之家是有联系的，embr"
+    "meaning": "拥抱;包含;接受，一个单词有不同的意思，但是这些不同意思之家是有联系的，embrace可以表示拥抱，"
   },
   {
     "word": "enlighten",
     "pos": "v.",
     "meaning": "启发;阐明;照亮"
-  },
-  {
-    "word": "origin",
-    "pos": "n.",
-    "meaning": "起源;原点;开端"
   },
   {
     "word": "enlightening",
@@ -165,19 +155,9 @@
     "meaning": "敏捷的; 迅速的,速度快的，所以那个转账那个东西叫swift，实际上一点都不快"
   },
   {
-    "word": "allege",
-    "pos": "v.",
-    "meaning": "（未经证实地）宣称，断言"
-  },
-  {
     "word": "allegation",
     "pos": "n.",
     "meaning": ""
-  },
-  {
-    "word": "cease",
-    "pos": "v.",
-    "meaning": "停止，结束"
   },
   {
     "word": "fringe",
@@ -197,12 +177,17 @@
   {
     "word": "reflect",
     "pos": "v.",
-    "meaning": "反映;反射;反省 re表示back往回,flect表示折叠的意思 flexibl"
+    "meaning": "反映;反射;反省 re表示back往回,flect表示折叠的意思 flexible那个flex也是折"
   },
   {
     "word": "reflection",
     "pos": "n.",
     "meaning": "反映;思考"
+  },
+  {
+    "word": "origin",
+    "pos": "n.",
+    "meaning": "起源;原点;开端"
   },
   {
     "word": "undermine",
@@ -213,11 +198,6 @@
     "word": "depletion",
     "pos": "n.",
     "meaning": "消耗；损耗"
-  },
-  {
-    "word": "mercury",
-    "pos": "n.",
-    "meaning": "汞，水银；水银柱"
   },
   {
     "word": "damp",
@@ -252,7 +232,7 @@
   {
     "word": "credential",
     "pos": "n.",
-    "meaning": "资格，证明;文凭，资格证书 访问凭据也是这个词，和certificate很像，q"
+    "meaning": "资格，证明;文凭，资格证书 访问凭据也是这个词，和certificate很像，qualificati"
   },
   {
     "word": "cue",
@@ -358,5 +338,25 @@
     "word": "physiology",
     "pos": "n.",
     "meaning": "生理学;生理机能"
+  },
+  {
+    "word": "proficiency",
+    "pos": "n.",
+    "meaning": "精通，熟练"
+  },
+  {
+    "word": "allege",
+    "pos": "v.",
+    "meaning": "（未经证实地）宣称"
+  },
+  {
+    "word": "cease",
+    "pos": "v.",
+    "meaning": "停止"
+  },
+  {
+    "word": "mercury",
+    "pos": "n.",
+    "meaning": "汞，水银"
   }
 ]

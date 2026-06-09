@@ -1,0 +1,337 @@
+[
+  {
+    "word": "trim",
+    "pos": "v.",
+    "meaning": "修剪；削减n"
+  },
+  {
+    "word": "nutrition",
+    "pos": "n.",
+    "meaning": "营养;营养学;营养品"
+  },
+  {
+    "word": "evacuate",
+    "pos": "v.",
+    "meaning": "疏散，撤离;搬出;排泄"
+  },
+  {
+    "word": "notorious",
+    "pos": "",
+    "meaning": "声名狼藉的，臭名昭著的"
+  },
+  {
+    "word": "notoriety",
+    "pos": "",
+    "meaning": "恶名;声名狼藉"
+  },
+  {
+    "word": "resident",
+    "pos": "n.",
+    "meaning": "居民，住户 adj"
+  },
+  {
+    "word": "residence",
+    "pos": "n.",
+    "meaning": "居住;住宅"
+  },
+  {
+    "word": "insulate",
+    "pos": "",
+    "meaning": "使隔热，使隔音，使绝缘;使隔离"
+  },
+  {
+    "word": "insulation",
+    "pos": "n.",
+    "meaning": "隔离;绝缘"
+  },
+  {
+    "word": "summit",
+    "pos": "n.",
+    "meaning": "顶点，最高点;峰会"
+  },
+  {
+    "word": "spiral",
+    "pos": "adj.",
+    "meaning": "螺旋形的 n"
+  },
+  {
+    "word": "network",
+    "pos": "n.",
+    "meaning": "网络;人际关系网v"
+  },
+  {
+    "word": "avenue",
+    "pos": "",
+    "meaning": "大街;林荫大道;途径，方法 ，表示途径的时候就是way"
+  },
+  {
+    "word": "contradict",
+    "pos": "v.",
+    "meaning": "矛盾；反驳；否定 dict表示说，contra是反，所以这个词就是反着说"
+  },
+  {
+    "word": "contradiction",
+    "pos": "n.",
+    "meaning": "矛盾;否定"
+  },
+  {
+    "word": "emulate",
+    "pos": "v.",
+    "meaning": "仿效，模仿"
+  },
+  {
+    "word": "scrutiny",
+    "pos": "n.",
+    "meaning": "仔细观察，详细审查"
+  },
+  {
+    "word": "friction",
+    "pos": "n.",
+    "meaning": "不和，分歧;摩擦;摩擦力"
+  },
+  {
+    "word": "plausible",
+    "pos": "",
+    "meaning": "看似可信的，似乎有理的"
+  },
+  {
+    "word": "implausible",
+    "pos": "adj.",
+    "meaning": "似乎不合情理的"
+  },
+  {
+    "word": "eminent",
+    "pos": "adj.",
+    "meaning": "杰出的;有名的;明显的"
+  },
+  {
+    "word": "stroll",
+    "pos": "v.",
+    "meaning": "/n"
+  },
+  {
+    "word": "respond",
+    "pos": "v.",
+    "meaning": "反应；回答"
+  },
+  {
+    "word": "react",
+    "pos": "v.",
+    "meaning": "反应 reaction"
+  },
+  {
+    "word": "response",
+    "pos": "n.",
+    "meaning": "反应"
+  },
+  {
+    "word": "notify",
+    "pos": "v.",
+    "meaning": "通报，通知"
+  },
+  {
+    "word": "ethical",
+    "pos": "adj.",
+    "meaning": "伦理的;道德的"
+  },
+  {
+    "word": "anatomy",
+    "pos": "n.",
+    "meaning": "解剖;解剖学;剖析"
+  },
+  {
+    "word": "thorny",
+    "pos": "adj.",
+    "meaning": "多刺的;棘手的，麻烦的"
+  },
+  {
+    "word": "involve",
+    "pos": "v.",
+    "meaning": "包含;涉及，volve表示转，in=里，转到里面来"
+  },
+  {
+    "word": "involvement",
+    "pos": "n.",
+    "meaning": "参与，加入"
+  },
+  {
+    "word": "deviation",
+    "pos": "n.",
+    "meaning": "偏离;偏差"
+  },
+  {
+    "word": "kidney",
+    "pos": "",
+    "meaning": "肾，肾脏"
+  },
+  {
+    "word": "stack",
+    "pos": "n.",
+    "meaning": "一堆;大量v"
+  },
+  {
+    "word": "dispense",
+    "pos": "v.",
+    "meaning": "发放，分配；提供，配发 记为“dis-"
+  },
+  {
+    "word": "utilise",
+    "pos": "",
+    "meaning": "利用"
+  },
+  {
+    "word": "bond",
+    "pos": "n.",
+    "meaning": "纽带，联系；债券；契约v"
+  },
+  {
+    "word": "revolve",
+    "pos": "v.",
+    "meaning": "环绕，围绕…"
+  },
+  {
+    "word": "dialect",
+    "pos": "n.",
+    "meaning": "方言，土话"
+  },
+  {
+    "word": "diameter",
+    "pos": "n.",
+    "meaning": "直径"
+  },
+  {
+    "word": "dialogue",
+    "pos": "n.",
+    "meaning": "对话 dia是相对的，logue是说"
+  },
+  {
+    "word": "vulnerability",
+    "pos": "n.",
+    "meaning": "弱点 约等于weakness"
+  },
+  {
+    "word": "skyscraper",
+    "pos": "n.",
+    "meaning": "摩天大楼"
+  },
+  {
+    "word": "hierarchy",
+    "pos": "",
+    "meaning": "层级体系;等级制度"
+  },
+  {
+    "word": "spur",
+    "pos": "n.",
+    "meaning": "/v"
+  },
+  {
+    "word": "exile",
+    "pos": "",
+    "meaning": "流放；被流放者，流亡者v"
+  },
+  {
+    "word": "badge",
+    "pos": "n.",
+    "meaning": "徽章，奖章；标记，标识"
+  },
+  {
+    "word": "vertical",
+    "pos": "adj.",
+    "meaning": "垂直的，直立的 n"
+  },
+  {
+    "word": "horizontal",
+    "pos": "",
+    "meaning": "水平的"
+  },
+  {
+    "word": "maximum",
+    "pos": "n.",
+    "meaning": "最大值；最大量 adj"
+  },
+  {
+    "word": "maximise",
+    "pos": "v.",
+    "meaning": "最大化 ise是英氏写法，美式写ize"
+  },
+  {
+    "word": "qualify",
+    "pos": "",
+    "meaning": "取得资格;有资格;证明合格"
+  },
+  {
+    "word": "qualification",
+    "pos": "n.",
+    "meaning": "资格;资质"
+  },
+  {
+    "word": "discharge",
+    "pos": "v.",
+    "meaning": "离开;释放;排出n"
+  },
+  {
+    "word": "finance",
+    "pos": "n.",
+    "meaning": "财政；金融v"
+  },
+  {
+    "word": "fund",
+    "pos": "v.",
+    "meaning": "资助"
+  },
+  {
+    "word": "extravagance",
+    "pos": "n.",
+    "meaning": "奢侈；浪费；过度"
+  },
+  {
+    "word": "extravagant",
+    "pos": "adj.",
+    "meaning": "过度的；奢侈的"
+  },
+  {
+    "word": "adornment",
+    "pos": "n.",
+    "meaning": "装饰;装饰品"
+  },
+  {
+    "word": "decoration",
+    "pos": "n.",
+    "meaning": "装饰"
+  },
+  {
+    "word": "adorn",
+    "pos": "v.",
+    "meaning": "装饰"
+  },
+  {
+    "word": "hybrid",
+    "pos": "n.",
+    "meaning": "混合物 adj"
+  },
+  {
+    "word": "mixture",
+    "pos": "n.",
+    "meaning": "混合物"
+  },
+  {
+    "word": "department",
+    "pos": "n.",
+    "meaning": "部，部门;系，科，局"
+  },
+  {
+    "word": "interfere",
+    "pos": "v.",
+    "meaning": "干涉;妨碍;打扰"
+  },
+  {
+    "word": "interference",
+    "pos": "n.",
+    "meaning": "干涉，干扰，这个有时候和interrupt互换，干扰打断的意思"
+  },
+  {
+    "word": "premium",
+    "pos": "n.",
+    "meaning": "保险费;附加费 adj"
+  }
+]

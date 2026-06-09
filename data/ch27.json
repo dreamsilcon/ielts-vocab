@@ -1,0 +1,362 @@
+[
+  {
+    "word": "feedback",
+    "pos": "",
+    "meaning": "反馈;回复"
+  },
+  {
+    "word": "drawback",
+    "pos": "n.",
+    "meaning": "缺点，劣势"
+  },
+  {
+    "word": "comparative",
+    "pos": "adj.",
+    "meaning": "比较的;相对的，比较而言的 //这个词来自于compare，比较的意思 ,ative结尾是形容词"
+  },
+  {
+    "word": "porcelain",
+    "pos": "",
+    "meaning": "瓷;瓷器"
+  },
+  {
+    "word": "cascade",
+    "pos": "",
+    "meaning": "小瀑布;倾泻 v"
+  },
+  {
+    "word": "eclipse",
+    "pos": "",
+    "meaning": "日食，月食;黯然失色"
+  },
+  {
+    "word": "shortcoming",
+    "pos": "n.",
+    "meaning": "缺点;短处"
+  },
+  {
+    "word": "defect",
+    "pos": "n.",
+    "meaning": "缺点，欠缺 // 注意这个不是检查啊"
+  },
+  {
+    "word": "disadvantage",
+    "pos": "n.",
+    "meaning": "缺点;不利"
+  },
+  {
+    "word": "demerit",
+    "pos": "n.",
+    "meaning": "缺点"
+  },
+  {
+    "word": "advantage",
+    "pos": "n.",
+    "meaning": "优点，优势"
+  },
+  {
+    "word": "merit",
+    "pos": "",
+    "meaning": "优点，好处"
+  },
+  {
+    "word": "spasm",
+    "pos": "",
+    "meaning": "痉挛;抽搐"
+  },
+  {
+    "word": "sponsor",
+    "pos": "",
+    "meaning": "赞助者;主办者v"
+  },
+  {
+    "word": "sponsorship",
+    "pos": "n.",
+    "meaning": "赞助;发起"
+  },
+  {
+    "word": "intensive",
+    "pos": "",
+    "meaning": "加强的;集中的，密集的，深入的"
+  },
+  {
+    "word": "intense",
+    "pos": "adj.",
+    "meaning": "强烈的;紧张的"
+  },
+  {
+    "word": "intensively",
+    "pos": "adv.",
+    "meaning": "强烈地;集中地"
+  },
+  {
+    "word": "instinctive",
+    "pos": "adj.",
+    "meaning": "本能的;天生的"
+  },
+  {
+    "word": "parasite",
+    "pos": "",
+    "meaning": "寄生虫"
+  },
+  {
+    "word": "military",
+    "pos": "",
+    "meaning": "军事的;军队的 n"
+  },
+  {
+    "word": "armament",
+    "pos": "",
+    "meaning": "武器，军备"
+  },
+  {
+    "word": "cannon",
+    "pos": "",
+    "meaning": "加农炮;大炮"
+  },
+  {
+    "word": "weapon",
+    "pos": "n.",
+    "meaning": "武器，兵器"
+  },
+  {
+    "word": "fleet",
+    "pos": "",
+    "meaning": "舰队"
+  },
+  {
+    "word": "navy",
+    "pos": "n.",
+    "meaning": "海军"
+  },
+  {
+    "word": "troop",
+    "pos": "n.",
+    "meaning": "军队"
+  },
+  {
+    "word": "scatter",
+    "pos": "",
+    "meaning": "分散;散开;散播"
+  },
+  {
+    "word": "disperse",
+    "pos": "v.",
+    "meaning": "散播;传播"
+  },
+  {
+    "word": "aspect",
+    "pos": "",
+    "meaning": "方面;朝向;样子，外观"
+  },
+  {
+    "word": "optimum",
+    "pos": "",
+    "meaning": "最佳的;最适宜的"
+  },
+  {
+    "word": "cave",
+    "pos": "",
+    "meaning": "洞穴，山洞;地窖"
+  },
+  {
+    "word": "temple",
+    "pos": "",
+    "meaning": "庙宇，寺庙;神殿"
+  },
+  {
+    "word": "intelligent",
+    "pos": "adj.",
+    "meaning": "聪明的;智能的"
+  },
+  {
+    "word": "rival",
+    "pos": "",
+    "meaning": "对手;竞争者v与"
+  },
+  {
+    "word": "municipal",
+    "pos": "",
+    "meaning": "市政的;市的"
+  },
+  {
+    "word": "border",
+    "pos": "",
+    "meaning": "边境，国界"
+  },
+  {
+    "word": "status",
+    "pos": "",
+    "meaning": "地位;状态;情形"
+  },
+  {
+    "word": "flee",
+    "pos": "v.",
+    "meaning": "逃离，逃避，逃跑"
+  },
+  {
+    "word": "consecutive",
+    "pos": "",
+    "meaning": "连贯的，连续不断的"
+  },
+  {
+    "word": "unconscious",
+    "pos": "adj.",
+    "meaning": "无意识的"
+  },
+  {
+    "word": "subconscious",
+    "pos": "n.",
+    "meaning": "潜意识;下意识 adj"
+  },
+  {
+    "word": "consciousness",
+    "pos": "n.",
+    "meaning": "意识;观念"
+  },
+  {
+    "word": "intervene",
+    "pos": "",
+    "meaning": "干涉，干预"
+  },
+  {
+    "word": "intervention",
+    "pos": "n.",
+    "meaning": "干涉;干预"
+  },
+  {
+    "word": "elaborate",
+    "pos": "adj.",
+    "meaning": "/iˈlæb"
+  },
+  {
+    "word": "elaborately",
+    "pos": "adv.",
+    "meaning": "精巧地"
+  },
+  {
+    "word": "professional",
+    "pos": "adj.",
+    "meaning": "职业的;专业的"
+  },
+  {
+    "word": "column",
+    "pos": "",
+    "meaning": "圆柱;专栏;列队"
+  },
+  {
+    "word": "biweekly",
+    "pos": "n.",
+    "meaning": "双周刊 adj"
+  },
+  {
+    "word": "bimonthly",
+    "pos": "n.",
+    "meaning": "双月刊 adj"
+  },
+  {
+    "word": "columnist",
+    "pos": "n.",
+    "meaning": "专栏作家"
+  },
+  {
+    "word": "editor",
+    "pos": "n.",
+    "meaning": "编辑"
+  },
+  {
+    "word": "encyclopedia",
+    "pos": "",
+    "meaning": "百科全书"
+  },
+  {
+    "word": "headline",
+    "pos": "n.",
+    "meaning": "标题"
+  },
+  {
+    "word": "journal",
+    "pos": "n.",
+    "meaning": "期刊"
+  },
+  {
+    "word": "deteriorate",
+    "pos": "v.",
+    "meaning": "恶化，变坏 这个词会写，但是老是记不住啥意思"
+  },
+  {
+    "word": "generate",
+    "pos": "v.",
+    "meaning": "产生;形成"
+  },
+  {
+    "word": "generation",
+    "pos": "n.",
+    "meaning": "代;一代人;产生"
+  },
+  {
+    "word": "generator",
+    "pos": "n.",
+    "meaning": "发电机"
+  },
+  {
+    "word": "instalment",
+    "pos": "",
+    "meaning": "分期付款;一节，一集//写成installment也可以"
+  },
+  {
+    "word": "vent",
+    "pos": "",
+    "meaning": "通风口，排气口v表达，发泄;排烟"
+  },
+  {
+    "word": "overwhelm",
+    "pos": "",
+    "meaning": "淹没; 压倒，"
+  },
+  {
+    "word": "overwhelming",
+    "pos": "adj.",
+    "meaning": "压倒性的，不可阻挡的"
+  },
+  {
+    "word": "cluster",
+    "pos": "n.",
+    "meaning": "群;簇;丛;串"
+  },
+  {
+    "word": "newsletter",
+    "pos": "n.",
+    "meaning": "时事通讯;内部通讯，简讯"
+  },
+  {
+    "word": "carve",
+    "pos": "",
+    "meaning": "雕刻;切，割"
+  },
+  {
+    "word": "illustrate",
+    "pos": "",
+    "meaning": "阐明，解释; 例证  给"
+  },
+  {
+    "word": "illustration",
+    "pos": "n.",
+    "meaning": "说明;例证;图解"
+  },
+  {
+    "word": "radical",
+    "pos": "",
+    "meaning": "激进的;根本的，彻底的"
+  },
+  {
+    "word": "proceed",
+    "pos": "",
+    "meaning": "继续进行，接着做;行进，前往"
+  },
+  {
+    "word": "bench",
+    "pos": "n.",
+    "meaning": "工作台;长凳"
+  }
+]

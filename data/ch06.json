@@ -1,0 +1,322 @@
+[
+  {
+    "word": "elbow",
+    "pos": "n.",
+    "meaning": "肘，肘部;弯处"
+  },
+  {
+    "word": "compact",
+    "pos": "adj.",
+    "meaning": "小型的，袖珍的；简约的；紧凑的"
+  },
+  {
+    "word": "overlap",
+    "pos": "v.",
+    "meaning": "n"
+  },
+  {
+    "word": "overview",
+    "pos": "n.",
+    "meaning": "综述;概述"
+  },
+  {
+    "word": "orthodox",
+    "pos": "adj.",
+    "meaning": "传统的，正统的"
+  },
+  {
+    "word": "traditional",
+    "pos": "adj.",
+    "meaning": "传统的，这是orthodox的同义词。"
+  },
+  {
+    "word": "unorthodox",
+    "pos": "adj.",
+    "meaning": "非传统的;非正统的"
+  },
+  {
+    "word": "adjoin",
+    "pos": "v.",
+    "meaning": "毗邻；连接"
+  },
+  {
+    "word": "curve",
+    "pos": "n.",
+    "meaning": "曲线;弯曲v"
+  },
+  {
+    "word": "innovate",
+    "pos": "",
+    "meaning": "创新;改革"
+  },
+  {
+    "word": "innovation",
+    "pos": "n.",
+    "meaning": "创新;改革"
+  },
+  {
+    "word": "innovative",
+    "pos": "adj.",
+    "meaning": "创新的;革新的"
+  },
+  {
+    "word": "renovate",
+    "pos": "v.",
+    "meaning": "革新;更新 , 修复，翻新，整修"
+  },
+  {
+    "word": "renovation",
+    "pos": "n.",
+    "meaning": "革新;更新"
+  },
+  {
+    "word": "moderate",
+    "pos": "adj.",
+    "meaning": "温和的;适度的，中等的"
+  },
+  {
+    "word": "coral",
+    "pos": "n.",
+    "meaning": "珊瑚 adj"
+  },
+  {
+    "word": "vocation",
+    "pos": "n.",
+    "meaning": "职业;使命感"
+  },
+  {
+    "word": "vocational",
+    "pos": "adj.",
+    "meaning": "职业的；"
+  },
+  {
+    "word": "vacate",
+    "pos": "v.",
+    "meaning": "腾空，放弃，废止 vacation n"
+  },
+  {
+    "word": "recede",
+    "pos": "v.",
+    "meaning": "逐渐远离，渐渐退去;逐渐减弱 cede表示go，走的意思,re=back，就是往回走的意思"
+  },
+  {
+    "word": "recession",
+    "pos": "n.",
+    "meaning": "衰退"
+  },
+  {
+    "word": "stir",
+    "pos": "v.",
+    "meaning": "/n"
+  },
+  {
+    "word": "solicitor",
+    "pos": "",
+    "meaning": "初级律师，事务律师；推销员"
+  },
+  {
+    "word": "remark",
+    "pos": "n.",
+    "meaning": "评论;意见;谈话v"
+  },
+  {
+    "word": "laundry",
+    "pos": "n.",
+    "meaning": "洗衣服;洗衣店;洗衣房"
+  },
+  {
+    "word": "explode",
+    "pos": "v.",
+    "meaning": "爆炸，爆发;激增"
+  },
+  {
+    "word": "explosion",
+    "pos": "n.",
+    "meaning": "爆炸;爆发"
+  },
+  {
+    "word": "random",
+    "pos": "adj.",
+    "meaning": "随机的;任意的"
+  },
+  {
+    "word": "reinforce",
+    "pos": "v.",
+    "meaning": "加强，加固；强化"
+  },
+  {
+    "word": "verbal",
+    "pos": "adj.",
+    "meaning": "口头的;言语的;动词的"
+  },
+  {
+    "word": "verbalise",
+    "pos": "v.",
+    "meaning": "描述;用言语表达"
+  },
+  {
+    "word": "impartial",
+    "pos": "adj.",
+    "meaning": "公平的，公正的，来自于part，part表示部分，加im就是不偏袒，不是某个部分的"
+  },
+  {
+    "word": "partial",
+    "pos": "adj.",
+    "meaning": "不公平的，偏袒的"
+  },
+  {
+    "word": "tenant",
+    "pos": "n.",
+    "meaning": "房客，租户"
+  },
+  {
+    "word": "impulse",
+    "pos": "n.",
+    "meaning": "冲动;刺激;推动力"
+  },
+  {
+    "word": "absorb",
+    "pos": "v.",
+    "meaning": "吸收;吸引;使全神贯注"
+  },
+  {
+    "word": "commercial",
+    "pos": "adj.",
+    "meaning": "商业的;商业化的"
+  },
+  {
+    "word": "commerce",
+    "pos": "n.",
+    "meaning": "商业"
+  },
+  {
+    "word": "headline",
+    "pos": "n.",
+    "meaning": "标题;新闻摘要"
+  },
+  {
+    "word": "sense",
+    "pos": "n.",
+    "meaning": "感觉；观念v"
+  },
+  {
+    "word": "sensible",
+    "pos": "adj.",
+    "meaning": "明智的;能感觉到的 ，相当于wise"
+  },
+  {
+    "word": "sensitive",
+    "pos": "adj.",
+    "meaning": "敏感的"
+  },
+  {
+    "word": "recycle",
+    "pos": "v.",
+    "meaning": "/n"
+  },
+  {
+    "word": "antenna",
+    "pos": "",
+    "meaning": "天线;触角，触须  注意不要忘了，在动物场景下，他是触角的意思，不要只记的天线。"
+  },
+  {
+    "word": "compendium",
+    "pos": "",
+    "meaning": "纲要；概略；汇编"
+  },
+  {
+    "word": "enlarge",
+    "pos": "v.",
+    "meaning": "扩大;增大;扩展"
+  },
+  {
+    "word": "denounce",
+    "pos": "",
+    "meaning": "谴责;告发;公然抨击 de表down，nounce是发声，denounce就是向下发声，也就是不好的"
+  },
+  {
+    "word": "announce",
+    "pos": "v.",
+    "meaning": "声明;宣布"
+  },
+  {
+    "word": "pronounce",
+    "pos": "v.",
+    "meaning": "发音"
+  },
+  {
+    "word": "mineral",
+    "pos": "n.",
+    "meaning": "矿物;矿物质"
+  },
+  {
+    "word": "presume",
+    "pos": "v.",
+    "meaning": "假定，假设;推测"
+  },
+  {
+    "word": "assume",
+    "pos": "v.",
+    "meaning": "假设，猜想 suppose v"
+  },
+  {
+    "word": "volume",
+    "pos": "n.",
+    "meaning": "体积;卷;音量"
+  },
+  {
+    "word": "thrive",
+    "pos": "v.",
+    "meaning": "繁荣，兴旺；茁壮成长 = flourish=prosper"
+  },
+  {
+    "word": "botany",
+    "pos": "n.",
+    "meaning": "植物学"
+  },
+  {
+    "word": "slash",
+    "pos": "v.",
+    "meaning": "砍，劈;减少 n"
+  },
+  {
+    "word": "conviction",
+    "pos": "n.",
+    "meaning": "定罪；确信，深信，信念"
+  },
+  {
+    "word": "convict",
+    "pos": "v.",
+    "meaning": "定罪，宣判"
+  },
+  {
+    "word": "boom",
+    "pos": "n.",
+    "meaning": "兴旺，繁荣；激增v兴旺;快速发展"
+  },
+  {
+    "word": "correlation",
+    "pos": "n.",
+    "meaning": "相关；关联；相互关系 cor=com，together，relation就是关系，所以是相关，相互关"
+  },
+  {
+    "word": "correlate",
+    "pos": "v.",
+    "meaning": "关联，联系"
+  },
+  {
+    "word": "tremendous",
+    "pos": "adj.",
+    "meaning": "极大的，巨大的；极好的"
+  },
+  {
+    "word": "stereotype",
+    "pos": "",
+    "meaning": "陈腔滥调；模式化形象"
+  },
+  {
+    "word": "allergy",
+    "pos": "n.",
+    "meaning": "过敏;过敏反应"
+  }
+]

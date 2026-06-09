@@ -1,0 +1,327 @@
+[
+  {
+    "word": "worsen",
+    "pos": "v.",
+    "meaning": "加剧，变坏 en=使动"
+  },
+  {
+    "word": "speculate",
+    "pos": "",
+    "meaning": "推测，猜测"
+  },
+  {
+    "word": "speculation",
+    "pos": "n.",
+    "meaning": "推断"
+  },
+  {
+    "word": "persist",
+    "pos": "",
+    "meaning": "坚持; 持续"
+  },
+  {
+    "word": "persistence",
+    "pos": "n.",
+    "meaning": "坚持;持续 ence是名词后缀"
+  },
+  {
+    "word": "visual",
+    "pos": "adj.",
+    "meaning": "视觉的，视力的 vis=看，前面提到过了，u是连接符，后面是al表形容词"
+  },
+  {
+    "word": "visualize",
+    "pos": "v.",
+    "meaning": "使可见;想象 ise=ize，英美拼写不一样，使动用法。使什么什么化，工业化，城市化等"
+  },
+  {
+    "word": "context",
+    "pos": "n.",
+    "meaning": "环境，背景；上下文，语境。text做词根的时候是编织的意思，context就是一起编织"
+  },
+  {
+    "word": "contextual",
+    "pos": "adj.",
+    "meaning": "上下文的 u连接符，al形容词"
+  },
+  {
+    "word": "plough",
+    "pos": "v.",
+    "meaning": "犁"
+  },
+  {
+    "word": "consolation",
+    "pos": "n.",
+    "meaning": "安慰，慰藉 sol=solo，单独的，con +sol就是单独的人在一起，可以获得安慰和蔚籍，就不再"
+  },
+  {
+    "word": "alternate",
+    "pos": "adj.",
+    "meaning": "轮流的，交替的 v"
+  },
+  {
+    "word": "alternation",
+    "pos": "n.",
+    "meaning": "轮流，交替"
+  },
+  {
+    "word": "explicit",
+    "pos": "adj.",
+    "meaning": "明确的，清楚的 ex=向外，plic=折叠，这个词相当于clear"
+  },
+  {
+    "word": "implicit",
+    "pos": "adj.",
+    "meaning": "含蓄的;不清楚的 这是explicit的反义词，隐式的"
+  },
+  {
+    "word": "vacant",
+    "pos": "",
+    "meaning": "空的;空缺的;空闲的"
+  },
+  {
+    "word": "vacancy",
+    "pos": "n.",
+    "meaning": "空白;空缺"
+  },
+  {
+    "word": "tropic",
+    "pos": "n.",
+    "meaning": ""
+  },
+  {
+    "word": "subtropics",
+    "pos": "n.",
+    "meaning": "亚热带"
+  },
+  {
+    "word": "subtropical",
+    "pos": "adj.",
+    "meaning": "亚热带的"
+  },
+  {
+    "word": "devote",
+    "pos": "",
+    "meaning": "致力于;奉献于 后面跟to或into"
+  },
+  {
+    "word": "devotion",
+    "pos": "n.",
+    "meaning": "奉献:贡献"
+  },
+  {
+    "word": "deadline",
+    "pos": "n.",
+    "meaning": "截止日期，最终期限"
+  },
+  {
+    "word": "capital",
+    "pos": "n.",
+    "meaning": "资本;首都;大写字母 adj"
+  },
+  {
+    "word": "consensus",
+    "pos": "",
+    "meaning": "一致，共识"
+  },
+  {
+    "word": "congestion",
+    "pos": "n.",
+    "meaning": "拥挤;拥塞"
+  },
+  {
+    "word": "provision",
+    "pos": "n.",
+    "meaning": "提供;供给;规定;条款 这个词就来自于provide，你就知道他是提供供给的意思"
+  },
+  {
+    "word": "provide",
+    "pos": "v.",
+    "meaning": "提供"
+  },
+  {
+    "word": "motivate",
+    "pos": "",
+    "meaning": "刺激，使有动机，激发"
+  },
+  {
+    "word": "motivation",
+    "pos": "n.",
+    "meaning": "动机，动力"
+  },
+  {
+    "word": "veracity",
+    "pos": "n.",
+    "meaning": "真实，准确;诚实 老师说这个和accuracy差不多但是我觉的accuracy不是精确的意思吗？"
+  },
+  {
+    "word": "vanish",
+    "pos": "v.",
+    "meaning": "消失 就是disappear"
+  },
+  {
+    "word": "disappear",
+    "pos": "v.",
+    "meaning": "消失"
+  },
+  {
+    "word": "appear",
+    "pos": "v.",
+    "meaning": "出现"
+  },
+  {
+    "word": "notion",
+    "pos": "n.",
+    "meaning": "观念;想法，见解"
+  },
+  {
+    "word": "commodity",
+    "pos": "n.",
+    "meaning": "商品;货物;日用品"
+  },
+  {
+    "word": "instil",
+    "pos": "v.",
+    "meaning": "灌输，培养；滴注"
+  },
+  {
+    "word": "colocation",
+    "pos": "n.",
+    "meaning": "搭配；组配；组合"
+  },
+  {
+    "word": "creep",
+    "pos": "v.",
+    "meaning": "爬行，匍匐;蔓延"
+  },
+  {
+    "word": "ecology",
+    "pos": "n.",
+    "meaning": "生态;生态学"
+  },
+  {
+    "word": "ecological",
+    "pos": "adj.",
+    "meaning": "生态的"
+  },
+  {
+    "word": "opulent",
+    "pos": "adj.",
+    "meaning": "豪华的;富有的;大量的"
+  },
+  {
+    "word": "adverse",
+    "pos": "adj.",
+    "meaning": "不利的;相反的;敌对的"
+  },
+  {
+    "word": "adversity",
+    "pos": "n.",
+    "meaning": "逆境;不幸"
+  },
+  {
+    "word": "emotion",
+    "pos": "n.",
+    "meaning": "情感;情绪"
+  },
+  {
+    "word": "emotional",
+    "pos": "adj.",
+    "meaning": "情感的;有感染力的"
+  },
+  {
+    "word": "excursion",
+    "pos": "n.",
+    "meaning": "远足;旅行;游览;离题"
+  },
+  {
+    "word": "sympathetic",
+    "pos": "adj.",
+    "meaning": "同情的;有同情心的"
+  },
+  {
+    "word": "upgrade",
+    "pos": "n.",
+    "meaning": "v"
+  },
+  {
+    "word": "symphony",
+    "pos": "",
+    "meaning": "交响乐;和声 phon表示声音，sym是共同，所以这个单词就是声音共同发出来的意思"
+  },
+  {
+    "word": "adolescent",
+    "pos": "adj.",
+    "meaning": "青春期的;青少年的 n"
+  },
+  {
+    "word": "adolescence",
+    "pos": "n.",
+    "meaning": "青年期;青春期"
+  },
+  {
+    "word": "stripe",
+    "pos": "n.",
+    "meaning": "条纹，线条;类型"
+  },
+  {
+    "word": "cosmetic",
+    "pos": "adj.",
+    "meaning": "美容的 n"
+  },
+  {
+    "word": "clay",
+    "pos": "n.",
+    "meaning": "黏土，陶土"
+  },
+  {
+    "word": "current",
+    "pos": "adj.",
+    "meaning": "现在的;最近的n"
+  },
+  {
+    "word": "currency",
+    "pos": "n.",
+    "meaning": "货币;流行"
+  },
+  {
+    "word": "element",
+    "pos": "n.",
+    "meaning": "元素;成分;自然环境"
+  },
+  {
+    "word": "anecdote",
+    "pos": "n.",
+    "meaning": "轶事，奇闻，秘史"
+  },
+  {
+    "word": "tilt",
+    "pos": "v.",
+    "meaning": "/n"
+  },
+  {
+    "word": "genuine",
+    "pos": "adj.",
+    "meaning": "真实的，真正的;真诚的"
+  },
+  {
+    "word": "authentic",
+    "pos": "adj.",
+    "meaning": "真实的;真正的"
+  },
+  {
+    "word": "duplication",
+    "pos": "n.",
+    "meaning": "重复;复制"
+  },
+  {
+    "word": "intimate",
+    "pos": "adj.",
+    "meaning": "亲密的;私人的 n"
+  },
+  {
+    "word": "subsequent",
+    "pos": "adj.",
+    "meaning": "随后的;后来的"
+  }
+]
