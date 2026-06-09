@@ -56,13 +56,31 @@ def parse_story_blocks(md: str) -> list[tuple[str, str]]:
 
 def md_to_html_body(md: str) -> str:
     html_parts = ["<h2>Story</h2>"]
-    for en, zh in parse_story_blocks(md):
-        html_parts.append(
-            '<div class="block">'
-            f'<p class="en">{en_to_html(en)}</p>'
-            f'<p class="zh">{zh_to_html(zh)}</p>'
-            "</div>"
-        )
+    in_story = False
+    pending_en: str | None = None
+
+    for line in md.splitlines():
+        if line.startswith("## Story"):
+            in_story = True
+            continue
+        if line.startswith("## ") and in_story:
+            break
+        if not in_story or not line.strip():
+            continue
+        if line.startswith("### "):
+            html_parts.append(f"<h3>{line[4:]}</h3>")
+            continue
+        if line.startswith("zh:"):
+            if pending_en:
+                html_parts.append(
+                    '<div class="block">'
+                    f'<p class="en">{en_to_html(pending_en)}</p>'
+                    f'<p class="zh">{zh_to_html(line)}</p>'
+                    "</div>"
+                )
+                pending_en = None
+            continue
+        pending_en = line
 
     if re.search(r"^## Coverage", md, re.M):
         html_parts.append("<h2>Coverage</h2>")
