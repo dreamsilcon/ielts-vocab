@@ -1,14 +1,13 @@
 :root {
-  --bg: #0f1419;
-  --surface: #1a2332;
-  --text: #e8eaed;
-  --muted: #9aa0a6;
-  --accent: #6ab7ff;
-  --accent-dim: #3d5a80;
-  --word-bg: #2d4a3e;
-  --word-fg: #a8e6cf;
-  --ready: #4caf50;
-  --pending: #555;
+  --bg: #ffffff;
+  --surface: #f7f7f7;
+  --text: #111111;
+  --muted: #555555;
+  --accent: #1a56db;
+  --accent-dim: #dddddd;
+  --word-fg: #000000;
+  --ready: #15803d;
+  --pending: #aaaaaa;
   --radius: 12px;
   --font: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   --mono: "JetBrains Mono", "Fira Code", monospace;
@@ -25,7 +24,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(135deg, #1a2332 0%, #0d2137 50%, #1a2f1a 100%);
+  background: var(--bg);
   padding: 3rem 1.5rem 2.5rem;
   text-align: center;
   border-bottom: 1px solid var(--accent-dim);
@@ -35,6 +34,7 @@ body {
   font-size: clamp(1.6rem, 4vw, 2.4rem);
   font-weight: 700;
   letter-spacing: -0.02em;
+  color: var(--text);
 }
 
 .subtitle { color: var(--muted); margin-top: 0.5rem; font-size: 1rem; }
@@ -66,13 +66,13 @@ body {
   padding: 1.25rem;
   text-decoration: none;
   color: inherit;
-  border: 1px solid transparent;
-  transition: border-color 0.2s, transform 0.15s;
+  border: 1px solid var(--accent-dim);
+  transition: border-color 0.2s, box-shadow 0.15s;
 }
 
 .card.ready:hover {
   border-color: var(--accent);
-  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .card.pending {
@@ -84,7 +84,7 @@ body {
   font-family: var(--mono);
   font-size: 2rem;
   font-weight: 700;
-  color: var(--accent);
+  color: var(--text);
 }
 
 .card .title { font-weight: 600; }
@@ -110,18 +110,19 @@ body {
 .nav-back:hover { text-decoration: underline; }
 
 .story-header { margin-bottom: 2rem; }
-.story-header h1 { font-size: 1.75rem; margin-bottom: 0.5rem; }
+.story-header h1 { font-size: 1.75rem; margin-bottom: 0.5rem; color: var(--text); }
 .story-header .tag { color: var(--muted); font-size: 0.9rem; }
 
 .story-body {
   background: var(--surface);
   border-radius: var(--radius);
   padding: 1.75rem 1.5rem;
+  border: 1px solid var(--accent-dim);
 }
 
 .story-body h2 {
   font-size: 1.15rem;
-  color: var(--accent);
+  color: var(--text);
   margin: 2rem 0 1rem;
   padding-bottom: 0.4rem;
   border-bottom: 1px solid var(--accent-dim);
@@ -129,7 +130,7 @@ body {
 
 .story-body h2:first-child { margin-top: 0; }
 
-.story-body p { margin-bottom: 1rem; text-align: justify; }
+.story-body p { margin-bottom: 1rem; text-align: justify; color: var(--text); }
 
 .story-body .kw {
   color: var(--word-fg);
@@ -162,15 +163,15 @@ body {
   text-align: left;
 }
 
-.groups th { background: var(--accent-dim); color: var(--text); }
+.groups th { background: #eeeeee; color: var(--text); }
 
 .coverage {
   margin-top: 1.5rem;
   padding: 1rem;
-  background: rgba(76, 175, 80, 0.12);
+  background: #f0fdf4;
   border-radius: var(--radius);
-  border: 1px solid var(--ready);
-  color: var(--word-fg);
+  border: 1px solid #bbf7d0;
+  color: var(--text);
   font-size: 0.95rem;
 }
 
