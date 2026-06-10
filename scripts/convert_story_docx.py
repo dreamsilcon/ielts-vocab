@@ -29,8 +29,18 @@ def is_chinese_line(s: str) -> bool:
     return bool(re.search(r"[\u4e00-\u9fff]", s))
 
 
+def is_skipped(s: str) -> bool:
+    if re.match(r"^Part \d+ Vocabulary Audit\s*$", s):
+        return True
+    if s.startswith("✅"):
+        return True
+    return False
+
+
 def is_part_header(s: str) -> bool:
-    return bool(re.match(r"^Part \d+", s))
+    if re.match(r"^Part \d+", s):
+        return True
+    return bool(re.match(r"^Epilogue\b", s))
 
 
 def en_markup(text: str) -> str:
@@ -61,7 +71,7 @@ def pair_paragraphs(paras: list[str]) -> list[tuple[str, str]]:
     i = 0
     while i < len(paras):
         p = paras[i].strip()
-        if not p:
+        if not p or is_skipped(p):
             i += 1
             continue
         if is_part_header(p):
@@ -100,7 +110,7 @@ def convert(ch: int, docx_path: Path | None = None) -> Path:
     if not docx_path or not docx_path.exists():
         raise FileNotFoundError(f"找不到 story docx: ch{ch}")
 
-    paras = read_docx_paragraphs(docx_path)
+    paras = [p.strip() for p in read_docx_paragraphs(docx_path) if p.strip() and not is_skipped(p.strip())]
     pairs = pair_paragraphs(paras)
 
     lines = [
@@ -114,7 +124,7 @@ def convert(ch: int, docx_path: Path | None = None) -> Path:
         "",
     ]
     for en, zh in pairs:
-        if en.startswith("**Part"):
+        if en.startswith("**Part") or en.startswith("**Epilogue"):
             part = en.strip("*")
             lines.append(f"### {part}")
             lines.append("")

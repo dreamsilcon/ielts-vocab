@@ -153,6 +153,18 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.story-body h3 {
+  font-family: var(--sans);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid var(--accent);
+}
+
+.story-body h3:first-of-type { margin-top: 0.5rem; }
+
 /* Each paragraph pair = one card */
 .block {
   background: var(--paper);
