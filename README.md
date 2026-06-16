@@ -1,7 +1,9 @@
 # 雅思单词记忆故事
 
 配套书目：《雅思核心词汇精讲精练》（宋鹏昊）  
-词源笔记：`D:\E-book\英语学习\宋鹏浩单词课\宋鹏浩1600-Total.docx`
+**权威来源**：`D:\E-book\英语学习\宋鹏浩单词课\分章节整理\` 下的 `ch* story.docx`
+
+> 词数、覆盖率、目录标题均以 **story Word 文件** 为准，不对照 `data/chXX.json` 原书词表。
 
 ## 在线阅读
 
@@ -11,25 +13,28 @@
 
 ```
 ielts-vocab/
-├── notes/        # 从 docx 提取的章节词表
-├── stories/      # 每章一个记忆故事（英+中对照）
+├── baseline/     # 写作基线（v3.0 精修版）
+├── stories/      # 每章故事（由 story docx 转换）
 ├── docs/         # GitHub Pages 静态网站
-├── data/         # 章节词汇 JSON + 音标
-└── scripts/      # 提取与构建脚本
+├── notes/        # 原书词表（参考，非权威）
+├── data/         # 原书词汇 JSON（参考，非权威）
+└── scripts/      # 转换与构建脚本
 ```
 
 ## 使用流程
 
 ```bash
-# 从 docx 提取全部章节（跳过 29、32）
-.venv/bin/python3 scripts/extract_all.py
+# 1. 从 story docx 转换（Windows 路径需在 WSL 可访问）
+python3 scripts/convert_story_docx.py 2
 
-# 生成单章网页
+# 2. 生成单章网页
 python3 scripts/build_pages.py 02
 
-# 生成全部网页 + 首页
-python3 scripts/build_all.py
+# 3. 刷新首页（标题 + 词数从 stories/ 读取）
 python3 scripts/build_index.py
+
+# 统计本章 story 词数
+python3 scripts/audit_coverage.py 02
 ```
 
 ## 进度

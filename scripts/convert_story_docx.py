@@ -8,6 +8,8 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from story_meta import story_words  # noqa: E402
 STORY_DIR = Path("/mnt/d/E-book/英语学习/宋鹏浩单词课/分章节整理")
 
 TAG_P = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}p"
@@ -135,7 +137,19 @@ def convert(ch: int, docx_path: Path | None = None) -> Path:
             lines.append(f"zh: {zh_markup(zh)}")
             lines.append("")
 
-    lines.extend(["---", "", "## Coverage", "", f"- Source: `{docx_path.name}`", ""])
+    body = "\n".join(lines)
+    count = len(story_words(body))
+    lines.extend(
+        [
+            "---",
+            "",
+            "## Coverage",
+            "",
+            f"- Source: `{docx_path.name}`",
+            f"- Words in story: {count}",
+            "",
+        ]
+    )
     out = ROOT / "stories" / f"ch{chs}.md"
     out.write_text("\n".join(lines), encoding="utf-8")
     return out

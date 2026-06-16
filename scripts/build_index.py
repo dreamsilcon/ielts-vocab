@@ -2,9 +2,13 @@
 """生成 docs/index.html 章节列表。"""
 
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from story_meta import story_info  # noqa: E402
+
 SKIP = {"29", "32"}
 
 
@@ -16,15 +20,18 @@ def main():
         num = c["num"]
         if num in SKIP:
             continue
-        story = ROOT / "stories" / f"ch{num}.md"
-        ready = story.exists()
+        story_path = ROOT / "stories" / f"ch{num}.md"
+        ready = story_path.exists()
         cls = "card ready" if ready else "card pending"
         href = f"ch{num}.html" if ready else "#"
+        info = story_info(num) if ready else None
+        title = info["title"] if info else f"第 {int(num)} 章"
+        count = info["count"] if info else c.get("count", 0)
         cards.append(
             f'        <a class="{cls}" href="{href}">\n'
             f'          <span class="num">{num}</span>\n'
-            f'          <span class="title">第 {int(num)} 章</span>\n'
-            f'          <span class="meta">{c["count"]} 词</span>\n'
+            f'          <span class="title">{title}</span>\n'
+            f'          <span class="meta">{count} 词</span>\n'
             f"        </a>"
         )
 
@@ -44,7 +51,7 @@ def main():
 
   <main class="container">
     <section class="intro">
-      <p>把每章单词编进连贯故事，读一遍故事，记住一整章词汇。第 29、32 章笔记缺失，暂未生成。</p>
+      <p>把每章单词编进连贯故事，读一遍故事，记住一整章词汇。词数以各章 story 文档为准。第 29、32 章暂无 story，暂未生成。</p>
     </section>
 
     <section class="chapters">
@@ -56,7 +63,7 @@ def main():
   </main>
 
   <footer>
-    <p>词源：宋鹏浩1600-Total.docx · <a href="https://github.com/dreamsilcon/ielts-vocab">GitHub</a></p>
+    <p>故事来源：分章节整理 story docx · <a href="https://github.com/dreamsilcon/ielts-vocab">GitHub</a></p>
   </footer>
 </body>
 </html>
