@@ -40,9 +40,17 @@ def is_skipped(s: str) -> bool:
 
 
 def is_part_header(s: str) -> bool:
-    if re.match(r"^Part \d+", s):
+    if re.match(r"^Part \d+", s, re.I):
         return True
-    return bool(re.match(r"^Epilogue\b", s))
+    return bool(re.match(r"^Epilogue\b", s, re.I))
+
+
+def normalize_part_header(s: str) -> str:
+    """Part 1 —Title / Part 1 - Title → Part 1 · Title"""
+    m = re.match(r"^(Part \d+)\s*[—–\-·]\s*(.+)$", s.strip(), re.I)
+    if m:
+        return f"{m.group(1)} · {m.group(2).strip()}"
+    return s.strip()
 
 
 def en_markup(text: str) -> str:
@@ -77,8 +85,7 @@ def pair_paragraphs(paras: list[str]) -> list[tuple[str, str]]:
             i += 1
             continue
         if is_part_header(p):
-            # Part 标题作为独立块（仅英文行，中文空）
-            pairs.append((f"**{p}**", ""))
+            pairs.append((f"**{normalize_part_header(p)}**", ""))
             i += 1
             continue
         if is_chinese_line(p):
@@ -134,7 +141,7 @@ def convert(ch: int, docx_path: Path | None = None) -> Path:
         lines.append(en_markup(en))
         lines.append("")
         if zh:
-            lines.append(f"zh: {zh_markup(zh)}")
+            lines.append(f"zh: {zh_markup(zh.replace('**', ''))}")
             lines.append("")
 
     body = "\n".join(lines)
