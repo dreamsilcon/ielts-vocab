@@ -121,27 +121,41 @@
     el.textContent = done + " / " + total + " Parts 已读完";
   }
 
+  function visibleCount(sents) {
+    var n = 0;
+    sents.forEach(function (sent) {
+      if (!sent.hidden) n += 1;
+    });
+    return n;
+  }
+
   function initBlocks() {
     document.querySelectorAll(".block").forEach(function (block) {
       var id = block.dataset.blockId;
-      var sents = Array.from(block.querySelectorAll(".sent"));
+      var sents = Array.from(block.querySelectorAll("p.en > .sent"));
       if (!sents.length) return;
 
       var saved = state.blocks[id];
-      if (typeof saved === "number" && saved > 0) {
+      if (typeof saved === "number" && saved >= 0) {
         revealThrough(sents, saved);
+      } else {
+        sents.forEach(function (sent, i) {
+          sent.hidden = i !== 0;
+        });
       }
+
       updateBlockUI(block, sents);
 
       var btn = block.querySelector(".btn-next");
       if (btn) {
         btn.addEventListener("click", function () {
-          var next = block.querySelector(".sent.is-pending");
+          var next = null;
+          sents.forEach(function (sent) {
+            if (!next && sent.hidden) next = sent;
+          });
           if (!next) return;
-          next.classList.remove("is-pending");
-          next.classList.add("is-visible");
-          var visible = block.querySelectorAll(".sent.is-visible").length;
-          state.blocks[id] = visible - 1;
+          next.hidden = false;
+          state.blocks[id] = visibleCount(sents) - 1;
           saveState();
           updateBlockUI(block, sents);
         });
@@ -151,18 +165,14 @@
 
   function revealThrough(sents, lastIdx) {
     sents.forEach(function (sent, i) {
-      if (i <= lastIdx) {
-        sent.classList.remove("is-pending");
-        sent.classList.add("is-visible");
-      }
+      sent.hidden = i > lastIdx;
     });
   }
 
   function updateBlockUI(block, sents) {
-    var visible = block.querySelectorAll(".sent.is-visible").length;
+    var visible = visibleCount(sents);
     var total = sents.length;
-    var pending = block.querySelector(".sent.is-pending");
-    var complete = !pending;
+    var complete = visible >= total;
 
     block.classList.toggle("block-complete", complete);
 
@@ -179,12 +189,9 @@
   }
 
   function refreshZhVisibility() {
-    document.querySelectorAll(".block").forEach(function (block) {
-      var zh = block.querySelector(".zh");
-      if (!zh) return;
-      var show =
-        body.dataset.readMode !== "en" && block.classList.contains("block-complete");
-      zh.hidden = !show;
+    var mode = body.dataset.readMode || "both";
+    document.querySelectorAll(".block .zh").forEach(function (zh) {
+      zh.hidden = mode !== "both";
     });
   }
 })();

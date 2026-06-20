@@ -427,13 +427,13 @@ footer a { color: var(--accent); }
 
 .reader-enabled .story-part .block:last-child { margin-bottom: 0.25rem; }
 
-/* Sentence-by-sentence */
-.sent.is-pending { display: none; }
+/* Sentence-by-sentence — use [hidden] for reliable hide/show */
+.reader-enabled p.en .sent[hidden] {
+  display: none !important;
+}
 
-.sent.is-visible { display: inline; }
-
-.sent.is-visible + .sent.is-visible::before {
-  content: " ";
+.reader-enabled p.en .sent {
+  display: inline;
 }
 
 .block-actions {
@@ -472,21 +472,39 @@ footer a { color: var(--accent); }
 }
 
 /* Reading modes */
-body[data-read-mode="en"] .zh { display: none !important; }
-
-body[data-read-mode="focus"] .ipa { display: none; }
-
-body[data-read-mode="focus"] .kw {
-  background: #dbeafe;
-  font-weight: 700;
+body[data-read-mode="en"] .block .zh {
+  display: none !important;
 }
 
-body[data-read-mode="focus"] .w-cn strong {
-  background: var(--zh-highlight);
+body[data-read-mode="both"] .block .zh:not([hidden]) {
+  display: block !important;
+}
+
+body[data-read-mode="focus"] .block .zh {
+  display: none !important;
 }
 
 body[data-read-mode="focus"] .story-body p.en {
-  color: #374151;
+  color: #94a3b8;
+}
+
+body[data-read-mode="focus"] .story-body .kw {
+  color: #1e40af !important;
+  background: #bfdbfe !important;
+  font-weight: 700;
+  font-size: 1.05em;
+}
+
+body[data-read-mode="focus"] .ipa {
+  display: none !important;
+}
+
+body[data-read-mode="both"] .story-body .kw {
+  background: var(--en-highlight);
+}
+
+body[data-read-mode="both"] .ipa {
+  display: inline;
 }
 
 /* ── 平板：稍宽内容区 ── */

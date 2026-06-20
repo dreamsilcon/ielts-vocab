@@ -46,11 +46,11 @@ def en_to_sentences_html(text: str) -> str:
     sentences = split_sentences(text)
     if len(sentences) <= 1:
         html = en_to_html(text)
-        return f'<span class="sent is-visible" data-idx="0">{html}</span>'
+        return f'<span class="sent" data-idx="0">{html}</span>'
     spans = []
     for i, sent in enumerate(sentences):
-        cls = "sent is-visible" if i == 0 else "sent is-pending"
-        spans.append(f'<span class="{cls}" data-idx="{i}">{en_to_html(sent)}</span>')
+        hidden = "" if i == 0 else " hidden"
+        spans.append(f'<span class="sent" data-idx="{i}"{hidden}>{en_to_html(sent)}</span>')
     return " ".join(spans)
 
 
@@ -64,7 +64,7 @@ def block_html(en: str, zh: str, block_id: str, reader: bool) -> str:
             f'<span class="sent-progress">1 / {total} 句</span>'
             f"</div>"
         )
-        zh_attr = ' hidden' if zh else ""
+        zh_attr = " hidden" if zh else ""
         zh_part = f'<p class="zh"{zh_attr}>{zh_to_html(zh)}</p>' if zh else ""
         return (
             f'<div class="block" data-block-id="{block_id}">'
@@ -222,9 +222,10 @@ def build(ch: str):
     title = title_m.group(1) if title_m else f"Chapter {ch_num}"
     body = md_to_html_body_reader(md) if reader else md_to_html_body(md)
 
-    body_class = f' class="reader-enabled"' if reader else ""
-    body_data = f' data-ch="{ch}"' if reader else ""
-    reader_script = '\n  <script src="reader.js"></script>' if reader else ""
+    body_class = ' class="reader-enabled"' if reader else ""
+    body_data = f' data-ch="{ch}" data-read-mode="both"' if reader else ""
+    asset_v = "?v=2" if reader else ""
+    reader_script = f'\n  <script src="reader.js{asset_v}"></script>' if reader else ""
     tag = "阅读模式 · 逐句展开 · Part 进度" if reader else "英文故事 + 中文对照 · 关键词高亮"
 
     html = f"""<!DOCTYPE html>
@@ -233,7 +234,7 @@ def build(ch: str):
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>{title}</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css{asset_v}">
 </head>
 <body{body_class}{body_data}>
   <div class="container">
