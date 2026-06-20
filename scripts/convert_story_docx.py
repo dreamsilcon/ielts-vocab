@@ -46,10 +46,13 @@ def is_part_header(s: str) -> bool:
 
 
 def normalize_part_header(s: str) -> str:
-    """Part 1 —Title / Part 2—Title / Part 4：Title → Part N · Title"""
+    """Part 1 —Title / Epilogue —Title → Part N · Title / Epilogue · Title"""
     m = re.match(r"^Part (\d+)\s*[\u2014\u2013·：:\-]\s*(.+)$", s.strip(), re.I)
     if m:
         return f"Part {m.group(1)} · {m.group(2).strip()}"
+    m = re.match(r"^Epilogue\s*[\u2014\u2013·：:\-]\s*(.+)$", s.strip(), re.I)
+    if m:
+        return f"Epilogue · {m.group(1).strip()}"
     return s.strip()
 
 
