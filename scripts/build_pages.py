@@ -11,6 +11,7 @@ READER_CHAPTERS = set(range(1, 10))  # ch01–ch09
 KW_RE = re.compile(r"<b>([^<]+)</b>\s*(/[^/\s][^/]*/)")
 ZH_KW_RE = re.compile(r"<b>([^<]+)</b>\(([^)]+)\)")
 SENT_SPLIT = re.compile(r"(?<=[.!?])\s+(?=[A-Z\"'(])")
+ZH_SENT_SPLIT = re.compile(r"(?<=[。！？])\s+")
 
 
 def en_to_html(text: str) -> str:
@@ -23,8 +24,23 @@ def en_to_html(text: str) -> str:
     )
 
 
-def zh_to_html(text: str) -> str:
+def split_sentences(text: str) -> list[str]:
+    text = text.strip()
+    if not text:
+        return []
+    parts = SENT_SPLIT.split(text)
+    return [p.strip() for p in parts if p.strip()]
+
+
+def split_zh_sentences(text: str) -> list[str]:
     text = text.removeprefix("zh:").strip()
+    if not text:
+        return []
+    parts = ZH_SENT_SPLIT.split(text)
+    return [p.strip() for p in parts if p.strip()]
+
+
+def zh_markup(text: str) -> str:
     return ZH_KW_RE.sub(
         r'<span class="w-cn">'
         r"<strong>\1</strong>"
@@ -34,12 +50,21 @@ def zh_to_html(text: str) -> str:
     )
 
 
-def split_sentences(text: str) -> list[str]:
-    text = text.strip()
-    if not text:
-        return []
-    parts = SENT_SPLIT.split(text)
-    return [p.strip() for p in parts if p.strip()]
+def zh_to_html(text: str) -> str:
+    text = text.removeprefix("zh:").strip()
+    return zh_markup(text)
+
+
+def zh_to_sentences_html(zh_line: str) -> str:
+    sentences = split_zh_sentences(zh_line)
+    if not sentences:
+        return ""
+    if len(sentences) == 1:
+        return f'<span class="sent-zh" data-zh-idx="0" hidden>{zh_markup(sentences[0])}</span>'
+    spans = []
+    for i, sent in enumerate(sentences):
+        spans.append(f'<span class="sent-zh" data-zh-idx="{i}" hidden>{zh_markup(sent)}</span>')
+    return " ".join(spans)
 
 
 def en_to_sentences_html(text: str) -> str:
@@ -64,8 +89,10 @@ def block_html(en: str, zh: str, block_id: str, reader: bool) -> str:
             f'<span class="sent-progress">1 / {total} 句</span>'
             f"</div>"
         )
-        zh_attr = " hidden" if zh else ""
-        zh_part = f'<p class="zh"{zh_attr}>{zh_to_html(zh)}</p>' if zh else ""
+        zh_part = ""
+        if zh:
+            zh_content = zh_to_sentences_html(zh)
+            zh_part = f'<p class="zh" hidden>{zh_content}</p>'
         return (
             f'<div class="block" data-block-id="{block_id}">'
             f'<p class="en">{en_content}</p>'
@@ -84,10 +111,9 @@ def block_html(en: str, zh: str, block_id: str, reader: bool) -> str:
 def reader_toolbar() -> str:
     return """
     <div class="reader-toolbar" role="toolbar" aria-label="阅读模式">
-      <span class="reader-label">阅读模式</span>
-      <button type="button" class="reader-btn" data-mode="en">纯英文</button>
-      <button type="button" class="reader-btn is-active" data-mode="both">显示中文</button>
-      <button type="button" class="reader-btn" data-mode="focus">只高亮生词</button>
+      <span class="reader-label">阅读</span>
+      <button type="button" class="reader-btn reader-toggle" data-toggle="zh" aria-pressed="false">显示中文</button>
+      <button type="button" class="reader-btn reader-toggle" data-toggle="focus" aria-pressed="false">只高亮生词</button>
       <span class="part-progress-text">0 / 0 Parts 已读完</span>
     </div>"""
 
@@ -223,8 +249,8 @@ def build(ch: str):
     body = md_to_html_body_reader(md) if reader else md_to_html_body(md)
 
     body_class = ' class="reader-enabled"' if reader else ""
-    body_data = f' data-ch="{ch}" data-read-mode="both"' if reader else ""
-    asset_v = "?v=2" if reader else ""
+    body_data = f' data-ch="{ch}"' if reader else ""
+    asset_v = "?v=3" if reader else ""
     reader_script = f'\n  <script src="reader.js{asset_v}"></script>' if reader else ""
     tag = "阅读模式 · 逐句展开 · Part 进度" if reader else "英文故事 + 中文对照 · 关键词高亮"
 

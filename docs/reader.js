@@ -5,24 +5,35 @@
   if (!body.classList.contains("reader-enabled")) return;
 
   var ch = body.dataset.ch || "00";
-  var storeKey = "ielts-reader-v1";
+  var storeKey = "ielts-reader-v2";
   var state = loadState();
 
   var toolbar = document.querySelector(".reader-toolbar");
   var parts = Array.from(document.querySelectorAll(".story-part"));
 
-  initMode();
+  initToolbar();
   initParts();
   initBlocks();
   updatePartProgress();
 
   function loadState() {
+    var base = { showZh: false, focus: false, openPart: 0, done: [], blocks: {} };
     try {
       var all = JSON.parse(localStorage.getItem(storeKey) || "{}");
-      return all[ch] || { mode: "both", openPart: 0, done: [], blocks: {} };
+      if (all[ch]) return Object.assign(base, all[ch]);
+      var legacy = JSON.parse(localStorage.getItem("ielts-reader-v1") || "{}");
+      if (legacy[ch]) {
+        var old = legacy[ch];
+        base.showZh = old.mode === "both";
+        base.focus = old.mode === "focus";
+        base.openPart = old.openPart || 0;
+        base.done = old.done || [];
+        base.blocks = old.blocks || {};
+      }
     } catch (e) {
-      return { mode: "both", openPart: 0, done: [], blocks: {} };
+      /* ignore */
     }
+    return base;
   }
 
   function saveState() {
@@ -31,30 +42,35 @@
       all[ch] = state;
       localStorage.setItem(storeKey, JSON.stringify(all));
     } catch (e) {
-      /* ignore quota errors */
+      /* ignore */
     }
   }
 
-  function initMode() {
-    applyMode(state.mode || "both");
+  function initToolbar() {
+    applySettings();
     if (!toolbar) return;
     toolbar.addEventListener("click", function (e) {
-      var btn = e.target.closest("[data-mode]");
+      var btn = e.target.closest("[data-toggle]");
       if (!btn) return;
-      state.mode = btn.dataset.mode;
-      applyMode(state.mode);
+      var key = btn.dataset.toggle;
+      if (key === "zh") state.showZh = !state.showZh;
+      if (key === "focus") state.focus = !state.focus;
+      applySettings();
+      syncAllZh();
       saveState();
     });
   }
 
-  function applyMode(mode) {
-    body.dataset.readMode = mode;
-    if (toolbar) {
-      toolbar.querySelectorAll("[data-mode]").forEach(function (btn) {
-        btn.classList.toggle("is-active", btn.dataset.mode === mode);
-      });
-    }
-    refreshZhVisibility();
+  function applySettings() {
+    body.classList.toggle("zh-on", !!state.showZh);
+    body.classList.toggle("focus-on", !!state.focus);
+    if (!toolbar) return;
+    toolbar.querySelectorAll("[data-toggle]").forEach(function (btn) {
+      var on =
+        btn.dataset.toggle === "zh" ? state.showZh : state.focus;
+      btn.classList.toggle("is-active", on);
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+    });
   }
 
   function initParts() {
@@ -116,9 +132,7 @@
   function updatePartProgress() {
     var el = document.querySelector(".part-progress-text");
     if (!el) return;
-    var done = state.done.length;
-    var total = parts.length;
-    el.textContent = done + " / " + total + " Parts 已读完";
+    el.textContent = state.done.length + " / " + parts.length + " Parts 已读完";
   }
 
   function visibleCount(sents) {
@@ -127,6 +141,40 @@
       if (!sent.hidden) n += 1;
     });
     return n;
+  }
+
+  function zhCountForEn(enVisible, enTotal, zhTotal) {
+    if (!state.showZh || !zhTotal || !enVisible) return 0;
+    if (enVisible >= enTotal) return zhTotal;
+    return Math.max(1, Math.ceil((enVisible * zhTotal) / enTotal));
+  }
+
+  function syncZh(block, enVisible) {
+    var zhPara = block.querySelector(".zh");
+    var zhSents = Array.from(block.querySelectorAll(".sent-zh"));
+    if (!zhPara || !zhSents.length) return;
+
+    if (!state.showZh) {
+      zhPara.hidden = true;
+      zhSents.forEach(function (z) {
+        z.hidden = true;
+      });
+      return;
+    }
+
+    zhPara.hidden = false;
+    var enSents = block.querySelectorAll("p.en > .sent");
+    var showN = zhCountForEn(enVisible, enSents.length, zhSents.length);
+    zhSents.forEach(function (z, i) {
+      z.hidden = i >= showN;
+    });
+  }
+
+  function syncAllZh() {
+    document.querySelectorAll(".block").forEach(function (block) {
+      var sents = block.querySelectorAll("p.en > .sent");
+      syncZh(block, visibleCount(Array.from(sents)));
+    });
   }
 
   function initBlocks() {
@@ -185,13 +233,6 @@
       btn.textContent = complete ? "本段读完 ✓" : "下一句 →";
     }
 
-    refreshZhVisibility();
-  }
-
-  function refreshZhVisibility() {
-    var mode = body.dataset.readMode || "both";
-    document.querySelectorAll(".block .zh").forEach(function (zh) {
-      zh.hidden = mode !== "both";
-    });
+    syncZh(block, visible);
   }
 })();
