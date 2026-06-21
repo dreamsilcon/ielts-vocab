@@ -6,10 +6,14 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 SKIP = {"29", "32"}
 
 
 def main():
+    from reader.assets_sync import sync_assets
+
+    sync_assets()
     chapters = sys.argv[1:] if len(sys.argv) > 1 else [
         f"{i:02d}" for i in range(1, 32) if f"{i:02d}" not in SKIP
     ]

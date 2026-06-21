@@ -13,6 +13,7 @@
 
 ```
 ielts-vocab/
+├── reader/       # 交互阅读器（JS/CSS + HTML 构建逻辑，所有章节共用）
 ├── baseline/     # 写作基线（v3.0 精修版）
 ├── stories/      # 每章故事（由 story docx 转换）
 ├── docs/         # GitHub Pages 静态网站
@@ -21,16 +22,30 @@ ielts-vocab/
 └── scripts/      # 转换与构建脚本
 ```
 
+## 阅读器（reader/）
+
+所有章节页面统一使用 `reader/` 模块生成的交互阅读效果：
+
+- **显示中文** — 开关，逐句同步显示译文
+- **只高亮生词** — 弱化正文、突出关键词
+- **显示全部** — 一次展开本章全文
+- **下一句** — 逐句阅读，Part 折叠与进度保存在浏览器
+
+源码在 `reader/assets/`（`reader.js`、`reader.css`），构建时自动同步到 `docs/`。改阅读功能只动 `reader/`，再跑 `build_pages.py` 或 `build_all.py`。
+
 ## 使用流程
 
 ```bash
 # 1. 从 story docx 转换（Windows 路径需在 WSL 可访问）
 python3 scripts/convert_story_docx.py 2
 
-# 2. 生成单章网页
+# 2. 生成单章网页（含阅读器）
 python3 scripts/build_pages.py 02
 
-# 3. 刷新首页（标题 + 词数从 stories/ 读取）
+# 3. 批量重建全部章节 + 同步阅读器资源
+python3 scripts/build_all.py
+
+# 4. 刷新首页（标题 + 词数从 stories/ 读取）
 python3 scripts/build_index.py
 
 # 统计本章 story 词数
