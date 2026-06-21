@@ -17,7 +17,14 @@
   updatePartProgress();
 
   function loadState() {
-    var base = { showZh: false, focus: false, openPart: 0, done: [], blocks: {} };
+    var base = {
+      showZh: false,
+      focus: false,
+      showAll: false,
+      openPart: 0,
+      done: [],
+      blocks: {},
+    };
     try {
       var all = JSON.parse(localStorage.getItem(storeKey) || "{}");
       if (all[ch]) return Object.assign(base, all[ch]);
@@ -48,6 +55,7 @@
 
   function initToolbar() {
     applySettings();
+    if (state.showAll) applyShowAllMode();
     if (!toolbar) return;
     toolbar.addEventListener("click", function (e) {
       var btn = e.target.closest("[data-toggle]");
@@ -55,8 +63,10 @@
       var key = btn.dataset.toggle;
       if (key === "zh") state.showZh = !state.showZh;
       if (key === "focus") state.focus = !state.focus;
+      if (key === "all") state.showAll = !state.showAll;
       applySettings();
-      syncAllZh();
+      if (key === "all") applyShowAllMode();
+      else syncAllZh();
       saveState();
     });
   }
@@ -64,13 +74,55 @@
   function applySettings() {
     body.classList.toggle("zh-on", !!state.showZh);
     body.classList.toggle("focus-on", !!state.focus);
+    body.classList.toggle("show-all-on", !!state.showAll);
     if (!toolbar) return;
     toolbar.querySelectorAll("[data-toggle]").forEach(function (btn) {
-      var on =
-        btn.dataset.toggle === "zh" ? state.showZh : state.focus;
+      var key = btn.dataset.toggle;
+      var on = false;
+      if (key === "zh") on = state.showZh;
+      if (key === "focus") on = state.focus;
+      if (key === "all") on = state.showAll;
       btn.classList.toggle("is-active", on);
       btn.setAttribute("aria-pressed", on ? "true" : "false");
     });
+  }
+
+  function applyPartExpansion() {
+    parts.forEach(function (part, i) {
+      var open = state.showAll || i === state.openPart;
+      part.classList.toggle("is-open", open);
+      var toggle = part.querySelector(".part-toggle");
+      if (toggle) toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  }
+
+  function applyShowAllMode() {
+    applyPartExpansion();
+    document.querySelectorAll(".block").forEach(function (block) {
+      var sents = Array.from(block.querySelectorAll("p.en > .sent"));
+      if (!sents.length) return;
+      if (state.showAll) {
+        sents.forEach(function (sent) {
+          sent.hidden = false;
+        });
+      } else {
+        restoreBlockSentences(block, sents);
+      }
+      updateBlockUI(block, sents);
+    });
+    saveState();
+  }
+
+  function restoreBlockSentences(block, sents) {
+    var id = block.dataset.blockId;
+    var saved = state.blocks[id];
+    if (typeof saved === "number" && saved >= 0) {
+      revealThrough(sents, saved);
+    } else {
+      sents.forEach(function (sent, i) {
+        sent.hidden = i !== 0;
+      });
+    }
   }
 
   function initParts() {
@@ -82,12 +134,9 @@
         part.classList.add("is-done");
       }
 
-      var open = state.openPart === idx;
-      part.classList.toggle("is-open", open);
-      if (toggle) toggle.setAttribute("aria-expanded", open ? "true" : "false");
-
       if (toggle) {
         toggle.addEventListener("click", function () {
+          if (state.showAll) return;
           openPart(idx);
         });
       }
@@ -99,19 +148,16 @@
       }
     });
 
+    applyPartExpansion();
     if (parts.length && state.openPart >= parts.length) {
-      openPart(0);
+      state.openPart = 0;
+      applyPartExpansion();
     }
   }
 
   function openPart(idx) {
     state.openPart = idx;
-    parts.forEach(function (part, i) {
-      var isOpen = i === idx;
-      part.classList.toggle("is-open", isOpen);
-      var toggle = part.querySelector(".part-toggle");
-      if (toggle) toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
-    });
+    applyPartExpansion();
     saveState();
     var openEl = parts[idx];
     if (openEl) openEl.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -164,7 +210,11 @@
 
     zhPara.hidden = false;
     var enSents = block.querySelectorAll("p.en > .sent");
-    var showN = zhCountForEn(enVisible, enSents.length, zhSents.length);
+    var enTotal = enSents.length;
+    var showN =
+      state.showAll || enVisible >= enTotal
+        ? zhSents.length
+        : zhCountForEn(enVisible, enTotal, zhSents.length);
     zhSents.forEach(function (z, i) {
       z.hidden = i >= showN;
     });
@@ -183,13 +233,12 @@
       var sents = Array.from(block.querySelectorAll("p.en > .sent"));
       if (!sents.length) return;
 
-      var saved = state.blocks[id];
-      if (typeof saved === "number" && saved >= 0) {
-        revealThrough(sents, saved);
-      } else {
-        sents.forEach(function (sent, i) {
-          sent.hidden = i !== 0;
+      if (state.showAll) {
+        sents.forEach(function (sent) {
+          sent.hidden = false;
         });
+      } else {
+        restoreBlockSentences(block, sents);
       }
 
       updateBlockUI(block, sents);
@@ -197,6 +246,7 @@
       var btn = block.querySelector(".btn-next");
       if (btn) {
         btn.addEventListener("click", function () {
+          if (state.showAll) return;
           var next = null;
           sents.forEach(function (sent) {
             if (!next && sent.hidden) next = sent;
@@ -218,8 +268,8 @@
   }
 
   function updateBlockUI(block, sents) {
-    var visible = visibleCount(sents);
     var total = sents.length;
+    var visible = state.showAll ? total : visibleCount(sents);
     var complete = visible >= total;
 
     block.classList.toggle("block-complete", complete);
@@ -229,8 +279,13 @@
 
     var btn = block.querySelector(".btn-next");
     if (btn) {
-      btn.disabled = complete;
-      btn.textContent = complete ? "本段读完 ✓" : "下一句 →";
+      if (state.showAll) {
+        btn.disabled = true;
+        btn.textContent = "已全部显示";
+      } else {
+        btn.disabled = complete;
+        btn.textContent = complete ? "本段读完 ✓" : "下一句 →";
+      }
     }
 
     syncZh(block, visible);

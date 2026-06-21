@@ -114,6 +114,7 @@ def reader_toolbar() -> str:
       <span class="reader-label">阅读</span>
       <button type="button" class="reader-btn reader-toggle" data-toggle="zh" aria-pressed="false">显示中文</button>
       <button type="button" class="reader-btn reader-toggle" data-toggle="focus" aria-pressed="false">只高亮生词</button>
+      <button type="button" class="reader-btn reader-toggle" data-toggle="all" aria-pressed="false">显示全部</button>
       <span class="part-progress-text">0 / 0 Parts 已读完</span>
     </div>"""
 
@@ -250,7 +251,7 @@ def build(ch: str):
 
     body_class = ' class="reader-enabled"' if reader else ""
     body_data = f' data-ch="{ch}"' if reader else ""
-    asset_v = "?v=3" if reader else ""
+    asset_v = "?v=4" if reader else ""
     reader_script = f'\n  <script src="reader.js{asset_v}"></script>' if reader else ""
     tag = "阅读模式 · 逐句展开 · Part 进度" if reader else "英文故事 + 中文对照 · 关键词高亮"
 
