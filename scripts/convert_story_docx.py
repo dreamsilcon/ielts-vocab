@@ -57,9 +57,16 @@ def normalize_part_header(s: str) -> str:
 
 
 def en_markup(text: str) -> str:
-    """word (/ipa/) → <b>word</b> /ipa/"""
-    return re.sub(
+    """word (/ipa/) or word /ipa/ → <b>word</b> /ipa/"""
+    if "<b>" in text:
+        return text
+    text = re.sub(
         r"\b([A-Za-z][A-Za-z\-]*)\s*\((/[^)]+/)\)",
+        r"<b>\1</b> \2",
+        text,
+    )
+    return re.sub(
+        r"\b([A-Za-z][A-Za-z\-]*)\s+(/[^/]+/)",
         r"<b>\1</b> \2",
         text,
     )
