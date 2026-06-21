@@ -1,18 +1,9 @@
-"""Build story HTML body with reader toolbar, parts, and sentence blocks."""
+"""Build story HTML body with parts and sentence blocks (toolbar injected by reader.js)."""
 
 import re
 
 from reader.config import DEFAULT_PART_TITLE
 from reader.markup import en_to_sentences_html, split_sentences, zh_to_sentences_html
-
-TOOLBAR = """
-    <div class="reader-toolbar" role="toolbar" aria-label="阅读模式">
-      <span class="reader-label">阅读</span>
-      <button type="button" class="reader-btn reader-toggle" data-toggle="zh" aria-pressed="false">显示中文</button>
-      <button type="button" class="reader-btn reader-toggle" data-toggle="focus" aria-pressed="false">只高亮生词</button>
-      <button type="button" class="reader-btn reader-toggle" data-toggle="all" aria-pressed="false">显示全部</button>
-      <span class="part-progress-text">0 / 0 Parts 已读完</span>
-    </div>"""
 
 
 def block_html(en: str, zh: str, block_id: str) -> str:
@@ -55,7 +46,7 @@ def close_part(title: str, blocks: list[str], part_idx: int) -> str:
 
 class _Parser:
     def __init__(self) -> None:
-        self.html_parts: list[str] = ["<h2>Story</h2>", TOOLBAR]
+        self.html_parts: list[str] = ["<h2>Story</h2>"]
         self.part_idx = -1
         self.block_idx = 0
         self.current_title: str | None = None

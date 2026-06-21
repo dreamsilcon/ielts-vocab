@@ -8,6 +8,7 @@
   var storeKey = "ielts-reader-v2";
   var state = loadState();
 
+  ensureToolbar();
   var toolbar = document.querySelector(".reader-toolbar");
   var parts = Array.from(document.querySelectorAll(".story-part"));
 
@@ -15,6 +16,28 @@
   initParts();
   initBlocks();
   updatePartProgress();
+
+  function ensureToolbar() {
+    if (document.querySelector(".reader-toolbar")) return;
+    var article = document.querySelector(".story-body");
+    if (!article) return;
+    var bar = document.createElement("div");
+    bar.className = "reader-toolbar";
+    bar.setAttribute("role", "toolbar");
+    bar.setAttribute("aria-label", "阅读模式");
+    bar.innerHTML =
+      '<span class="reader-label">阅读</span>' +
+      '<button type="button" class="reader-btn reader-toggle" data-toggle="zh" aria-pressed="false">显示中文</button>' +
+      '<button type="button" class="reader-btn reader-toggle" data-toggle="focus" aria-pressed="false">只高亮生词</button>' +
+      '<button type="button" class="reader-btn reader-toggle" data-toggle="all" aria-pressed="false">显示全部</button>' +
+      '<span class="part-progress-text">0 / 0 Parts 已读完</span>';
+    var anchor = article.querySelector("h2");
+    if (anchor && anchor.nextSibling) {
+      article.insertBefore(bar, anchor.nextSibling);
+    } else {
+      article.appendChild(bar);
+    }
+  }
 
   function loadState() {
     var base = {

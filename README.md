@@ -50,6 +50,9 @@ python3 scripts/build_index.py
 
 # 统计本章 story 词数
 python3 scripts/audit_coverage.py 02
+
+# 审计章节 HTML 无阅读器残留 markup
+python3 scripts/audit_reader_html.py
 ```
 
 ## 进度
