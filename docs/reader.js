@@ -117,6 +117,7 @@
       var toggle = part.querySelector(".part-toggle");
       if (toggle) toggle.setAttribute("aria-expanded", open ? "true" : "false");
     });
+    applyAllBlockVisibility();
   }
 
   function applyShowAllMode() {
@@ -133,6 +134,7 @@
       }
       updateBlockUI(block, sents);
     });
+    applyAllBlockVisibility();
     saveState();
   }
 
@@ -202,6 +204,60 @@
     var el = document.querySelector(".part-progress-text");
     if (!el) return;
     el.textContent = state.done.length + " / " + parts.length + " Parts 已读完";
+  }
+
+  function blockSentences(block) {
+    return Array.from(block.querySelectorAll("p.en > .sent"));
+  }
+
+  function blockIsComplete(block, sents) {
+    sents = sents || blockSentences(block);
+    if (!sents.length) return true;
+    return state.showAll || visibleCount(sents) >= sents.length;
+  }
+
+  function activeBlockIndex(blocks) {
+    for (var i = 0; i < blocks.length; i += 1) {
+      if (!blockIsComplete(blocks[i])) return i;
+    }
+    return Math.max(0, blocks.length - 1);
+  }
+
+  function revealAllSentences(block, sents) {
+    sents = sents || blockSentences(block);
+    sents.forEach(function (sent) {
+      sent.hidden = false;
+    });
+    updateBlockUI(block, sents);
+  }
+
+  function applyBlockVisibility(part) {
+    var blocks = Array.from(part.querySelectorAll(".block"));
+    if (!blocks.length) return;
+
+    if (state.showAll || !part.classList.contains("is-open")) {
+      blocks.forEach(function (block) {
+        block.hidden = false;
+      });
+      return;
+    }
+
+    var active = activeBlockIndex(blocks);
+    blocks.forEach(function (block, idx) {
+      if (idx > active) {
+        block.hidden = true;
+        return;
+      }
+      block.hidden = false;
+      var sents = blockSentences(block);
+      if (idx < active) {
+        revealAllSentences(block, sents);
+      }
+    });
+  }
+
+  function applyAllBlockVisibility() {
+    parts.forEach(applyBlockVisibility);
   }
 
   function visibleCount(sents) {
@@ -279,9 +335,21 @@
           state.blocks[id] = visibleCount(sents) - 1;
           saveState();
           updateBlockUI(block, sents);
+          if (blockIsComplete(block, sents)) {
+            applyAllBlockVisibility();
+            var part = block.closest(".story-part");
+            if (part) {
+              var partBlocks = Array.from(part.querySelectorAll(".block"));
+              var nextActive = partBlocks[activeBlockIndex(partBlocks)];
+              if (nextActive && nextActive !== block) {
+                nextActive.scrollIntoView({ behavior: "smooth", block: "nearest" });
+              }
+            }
+          }
         });
       }
     });
+    applyAllBlockVisibility();
   }
 
   function revealThrough(sents, lastIdx) {

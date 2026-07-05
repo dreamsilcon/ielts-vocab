@@ -139,6 +139,10 @@
 
 .story-part.is-open .part-content { display: block; }
 
+.reader-enabled .story-part .block[hidden] {
+  display: none !important;
+}
+
 .reader-enabled .story-part .block {
   box-shadow: none;
   margin-bottom: 0.75rem;
