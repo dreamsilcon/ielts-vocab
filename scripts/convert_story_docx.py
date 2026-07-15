@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from story_meta import story_words  # noqa: E402
-STORY_DIR = Path("/mnt/d/E-book/英语学习/宋鹏浩单词课/分章节整理")
+STORY_DIR = Path("/mnt/d/E-book/英语学习/宋鹏浩1600单词/分章节整理")
 
 TAG_P = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}p"
 TAG_T = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}t"
