@@ -10,7 +10,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from story_meta import story_words  # noqa: E402
-STORY_DIR = Path("/mnt/d/E-book/英语学习/宋鹏浩单词课/分章节整理")
+STORY_DIRS = [
+    Path("/mnt/d/E-book/英语学习/宋鹏浩1600单词/分章节整理"),
+    Path("/mnt/d/E-book/英语学习/宋鹏浩单词课/分章节整理"),
+]
+STORY_DIR = next((p for p in STORY_DIRS if p.exists()), STORY_DIRS[0])
 
 TAG_P = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}p"
 TAG_T = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}t"
@@ -119,12 +123,13 @@ def pair_paragraphs(paras: list[str]) -> list[tuple[str, str]]:
 def convert(ch: int, docx_path: Path | None = None) -> Path:
     chs = f"{ch:02d}"
     if docx_path is None:
-        candidates = [
-            STORY_DIR / f"ch{ch} story.docx",
-            STORY_DIR / f"ch{chs} story.docx",
-            STORY_DIR / f"ch{ch} story.doc",
-            STORY_DIR / f"ch{chs} story.doc",
+        names = [
+            f"ch{ch} story.docx",
+            f"ch{chs} story.docx",
+            f"ch{ch} story.doc",
+            f"ch{chs} story.doc",
         ]
+        candidates = [d / name for d in STORY_DIRS for name in names]
         docx_path = next((p for p in candidates if p.exists()), None)
     if not docx_path or not docx_path.exists():
         raise FileNotFoundError(f"找不到 story docx: ch{ch}")
