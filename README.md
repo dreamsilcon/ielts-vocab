@@ -19,6 +19,7 @@ ielts-vocab/
 ├── docs/         # GitHub Pages 静态网站
 ├── notes/        # 原书词表（参考，非权威）
 ├── data/         # 原书词汇 JSON（参考，非权威）
+├── articles/     # 跨章易混词、用法补充笔记
 └── scripts/      # 转换与构建脚本
 ```
 
